@@ -161,16 +161,34 @@ header .logo_hamburger {
 
 <style>
 #body_container {
-	margin-top: 410px;
+	<?php
+		if (basename($_SERVER['PHP_SELF']) == 'index.php') {
+			echo "margin-top: 410px;";
+		} else {
+			echo "margin-top: 96px;";
+		}
+	?>
 }
 @media (min-width: 576px) {
 	#body_container {
-		margin-top: 450px;
+		<?php
+			if (basename($_SERVER['PHP_SELF']) == 'index.php') {
+				echo "margin-top: 450px;";
+			} else {
+				echo "margin-top: 96px;";
+			}
+		?>
 	}
 }
 @media (min-width: 768px) {
 	#body_container {
-		margin-top: 590px;
+		<?php
+			if (basename($_SERVER['PHP_SELF']) == 'index.php') {
+				echo "margin-top: 590px;";
+			} else {
+				echo "margin-top: 96px;";
+			}
+		?>
 	}
 }
 @media (min-width: 992px) {
