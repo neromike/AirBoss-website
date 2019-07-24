@@ -64,6 +64,7 @@ header a:hover {
 header h4 {
 	margin: 0px;
 	text-transform: uppercase;
+	font-size: 1.7em;
 }
 header .logo_color1 {
 	color: <?php echo $color_light; ?>;
@@ -104,7 +105,7 @@ header .logo_hamburger {
 <header class="fixed-top container-fluid">
 	<div class="row">
 		<!-- LOGO -->
-		<div class="col-9 col-md-9 col-lg-6">
+		<div class="col-10 col-md-9 col-lg-6">
 			<a href="index.php">
 				<h4>
 					<span class="logo_color1">AirBoss</span>
@@ -114,7 +115,7 @@ header .logo_hamburger {
 		</div>
 
 		<!-- HAMBURGER FOR SMALLER SCREENS -->
-		<a class="text-right col-3 d-block d-lg-none" href="" data-toggle="modal" data-target="#header_hamburger_modal">
+		<a class="text-right col-2 d-block d-lg-none" href="" data-toggle="modal" data-target="#header_hamburger_modal">
 			<span class="fas fa-bars logo_hamburger"></span>
 		</a>
 
