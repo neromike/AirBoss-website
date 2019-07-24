@@ -235,8 +235,8 @@ window.onload = (function(){
 }
 </style>
 <div class="row homepage_box_container">
-	<div class="col-1"></div>
-	<div class="homepage_box_container_inner col-10">
+	<div class="d-none d-sm-block col-sm-1"></div>
+	<div class="homepage_box_container_inner col-12 col-sm-10">
 
 		<div class="row">
 
@@ -276,7 +276,7 @@ window.onload = (function(){
 	</div>
 
 	</div>
-	<div class="col-1"></div>
+	<div class="d-none d-sm-block col-sm-1"></div>
 </div>
 
 
