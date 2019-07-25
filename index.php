@@ -186,6 +186,7 @@ window.onload = (function(){
 }
 .homepage_box_inner {
 	padding: 2em;
+	position: relative;
 }
 .homepage_box h4 {
 	text-transform: uppercase;
@@ -225,9 +226,18 @@ window.onload = (function(){
 	.homepage_box {
 		background-color: white;
 		padding: 15px;
+		display: flex;
 	}
 	.homepage_box_inner {
 		background-color: <?php echo $color_primary5; ?>;
+	}
+	.homepage_box_button {
+		position: absolute;
+		bottom: 1em;
+		left: 0px;
+		right: 0px;
+		margin-left: 3em;
+		margin-right: 3em;
 	}
 }
 @media (min-width: 1200px) {
@@ -244,7 +254,7 @@ window.onload = (function(){
 			<div class="homepage_box col-12 col-sm-10 col-lg-4 text-center">
 				<div class="homepage_box_inner">
 					<h4>Services</h4>
-					<div class="homepage_box_desc">AirBoss specializes in each step of aircraft development. We have over 25 years of experience working from conceptual design to test flight. GIve us your idea, and we'll make it fly.</div>
+					<div class="homepage_box_desc">We have over 25 years of experience working from conceptual design to test flight. GIve us your idea, and we'll make it fly.</div>
 					<a class="homepage_box_button" href="services.php">More Info</a>
 					<br /><br />
 				</div>
