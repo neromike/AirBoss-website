@@ -1,49 +1,5 @@
 <?php require 'header.php'; ?>
 
-<!--
-<style>
-#homepage_slider_container {
-	position: relative;
-	background-color: #184668;
-}
-#homepage_slider {
-	margin-left: auto;
-	margin-right: auto;
-}
-#homepage_slider_img {
-	max-height: 680px;
-	max-width: 100%;
-	width: auto;
-}
-#homepage_slider_message {
-	position: absolute;
-	bottom: 0px;
-	background-color: white;
-	opacity: 0.8;
-	padding-left: 1em;
-	padding-right: 1em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	color: #184668;
-	font-family: 'Nanum Gothic', sans-serif;
-	width: 100%;
-	max-width: 900px;
-	font-weight: bold;
-	left: 0;
-	right: 0;
-	margin: auto;
-}
-</style>
-<div id="homepage_slider_container" class="row">
-	<div id="homepage_slider">
-		<img id="homepage_slider_img" src="img/drawing_image.jpg" />
-	</div>
-	<div id="homepage_slider_message" class="text-center">
-		Whatever the challenge put before us, we will find the best solution.
-	</div>
-</div>
--->
-
 
 <style>
 #homepage_grid_container {
