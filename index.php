@@ -84,6 +84,11 @@
 		background-size: calc(100% / 13), cover;
 	}
 }
+@media (min-width: 1600px) {
+	#homepage_grid_container {
+		background-size: calc(100% / 22), cover;
+	}
+}
 
 </style>
 <div id="homepage_grid_container" class="row">
