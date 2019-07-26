@@ -159,20 +159,6 @@ window.onload = (function(){
 	font-size: 1em;
 	padding-bottom: 3em;
 }
-.homepage_box .homepage_box_button {
-	background-color: <?php echo $color_primary1; ?>;
-	color: white;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	padding-left: 1em;
-	padding-right: 1em;
-}
-.homepage_box .homepage_box_button:hover {
-	text-decoration: none;
-	color: <?php echo $color_primary5; ?>;
-	font-weight: bold;
-	transition: color 0.5s;
-}
 
 @media (min-width: 576px) {
 	.homepage_box {
@@ -216,7 +202,7 @@ window.onload = (function(){
 				<div class="homepage_box_inner">
 					<h4>Services</h4>
 					<div class="homepage_box_desc">We have over 25 years of experience working from conceptual design to test flight. GIve us your idea, and we'll make it fly.</div>
-					<a class="homepage_box_button" href="services.php">More Info</a>
+					<a class="homepage_box_button button button_light" href="services.php">More Info</a>
 					<br /><br />
 				</div>
 			</div>
@@ -227,7 +213,7 @@ window.onload = (function(){
 				<div class="homepage_box_inner">
 					<h4>Projects</h4>
 					<div class="homepage_box_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus pretium dignissim. Vestibulum ullamcorper, purus a faucibus placerat, metus purus.</div>
-					<a class="homepage_box_button" href="projects.php">More Info</a>
+					<a class="homepage_box_button button button_light" href="projects.php">More Info</a>
 					<br /><br />
 				</div>
 			</div>
@@ -238,7 +224,7 @@ window.onload = (function(){
 				<div class="homepage_box_inner">
 					<h4>Gallery</h4>
 					<div class="homepage_box_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus pretium dignissim. Vestibulum ullamcorper, purus a faucibus placerat, metus purus.</div>
-					<a class="homepage_box_button" href="gallery.php">More Info</a>
+					<a class="homepage_box_button button button_light" href="gallery.php">More Info</a>
 					<br /><br />
 				</div>
 			</div>
@@ -266,19 +252,6 @@ window.onload = (function(){
 	color: #184668;
 	font-size: 3em;
 }
-.homepage_aboutus .homepage_aboutus_button {
-	background-color: #184668;
-	color: white;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	padding-left: 1em;
-	padding-right: 1em;
-}
-.homepage_aboutus .homepage_aboutus_button:hover {
-	text-decoration: none;
-	color: #6ea4ca;
-	font-weight: bold;
-	transition: color 0.5s;
 }
 </style>
 <div class="homepage_aboutus row">
@@ -288,7 +261,7 @@ window.onload = (function(){
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pulvinar elit, eget aliquam purus. Phasellus sed posuere elit. Suspendisse elementum dui in nisi tincidunt consectetur. Integer urna lacus, rutrum ut massa in, placerat mattis ipsum. Donec at maximus est. Quisque ultricies tincidunt diam ac pharetra. Nam tincidunt iaculis enim eu suscipit. Etiam est est, posuere sit amet felis vehicula, finibus fringilla velit. Phasellus lobortis diam at risus viverra, eget pharetra nisl mollis. Sed placerat lacinia justo, sed maximus nunc feugiat sit amet. Praesent ex sapien, varius vitae mollis finibus, pulvinar quis sapien. Aliquam ullamcorper fermentum nibh, quis egestas eros rutrum quis. Duis ipsum odio, placerat consectetur imperdiet eget, scelerisque id tortor.</p>
 		<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque nec feugiat turpis. Vestibulum sit amet est ac lorem cursus tincidunt. Cras et tellus turpis. Nunc vitae dictum ipsum. Vestibulum tempor justo id mauris lobortis, vitae vestibulum lacus faucibus. Sed eu hendrerit tortor, dictum ultricies ante. In sit amet orci velit.</p>
 		<br />
-		<a class="homepage_aboutus_button" href="about.php">Read More</a>
+		<a class="button button_dark" href="about.php">Read More</a>
 		<br /><br /><br />
 	</div>
 	<div class="col-1"></div>
@@ -319,26 +292,14 @@ window.onload = (function(){
 	border-radius: 0.5em;
 	margin-bottom: 5px;
 	border: 1px solid #184668;
+.homepage_contactus .button {
+	border-radius: 0px;
+	margin-bottom: 2em;
 }
 #homepage_contactus_message {
 	padding-bottom: 1em;
 	color: #ff9696;
 
-}
-.homepage_contactus .homepage_contactus_button {
-	background-color: #6ea4ca;
-	color: white;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	padding-left: 1em;
-	padding-right: 1em;
-	border-radius: 0px;
-}
-.homepage_contactus .homepage_contactus_button:hover {
-	text-decoration: none;
-	color: #184668;
-	font-weight: bold;
-	transition: color 0.5s;
 }
 </style>
 <div class="homepage_contactus row">
@@ -365,7 +326,7 @@ window.onload = (function(){
 			<textarea id="contactus_message" placeholder="Message"></textarea>
 			<br />
 			<div id="homepage_contactus_message"></div>
-			<input class="homepage_contactus_button" onclick="send_contact(); return false;" type="submit" />
+			<input class="button button_light" onclick="send_contact(); return false;" type="submit" />
 		</form>
 	</div>
 </div>

@@ -25,6 +25,28 @@
 	<title>AirBoss Aviation Group</title>
 	<link rel="icon" type="image/png" href="favicon.ico" />
 </head>
+
+<?php
+	$color_base_dark = "#01284E";
+	$color_base_mid_dark = "#14497C";
+	$color_base_mid_light = "#42709C";
+	$color_base_light = "#9EB8D2";
+	$color_light = "#FFFFFF";
+	$color_grey = "#e8edf2";
+
+	$color_base = "#144677";
+	$color_primary1 = "#426F9C";
+	$color_primary2 = "#265C8F";
+	$color_primary3 = "#144677";
+	$color_primary4 = "#073561";
+	$color_primary5 = "#032546";
+	$color_comp1 = "#F0B35A";
+	$color_comp2 = "#DC952E";
+	$color_comp3 = "#B77413";
+	$color_comp4 = "#965900";
+	$color_comp5 = "#6C4000";
+?>
+
 <style>
 * {
 	font-family: 'Nanum Gothic', sans-serif;
@@ -32,27 +54,23 @@
 a {
 	color: inherit;
 }
+h1 {
+	color: <?php echo $color_base_dark; ?>;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.page_overview_copy {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 </style>
-<?php
-$color_base = "#144677";
-$color_primary1 = "#426F9C";
-$color_primary2 = "#265C8F";
-$color_primary3 = "#144677";
-$color_primary4 = "#073561";
-$color_primary5 = "#032546";
-$color_comp1 = "#F0B35A";
-$color_comp2 = "#DC952E";
-$color_comp3 = "#B77413";
-$color_comp4 = "#965900";
-$color_comp5 = "#6C4000";
-$color_light = "#FFFFFF";
-?>
 <body>
 
 
 <style>
 header {
-	background-color: <?php echo $color_primary5; ?>;
+	background-color: <?php echo $color_base_dark; ?>;
 }
 header .row {
 	padding-top: 2em;
@@ -70,7 +88,7 @@ header .logo_color1 {
 	color: <?php echo $color_light; ?>;
 }
 header .logo_color2 {
-	color: #92c1eb;
+	color: <?php echo $color_base_light; ?>;
 	font-size: 0.7em;
 }
 header .logo_hamburger {
@@ -79,12 +97,12 @@ header .logo_hamburger {
 }
 
 #header_menu a {
-	color: #d1e0eb;
+	color: <?php echo $color_base_light; ?>;
 	margin-left: 1em;
 	margin-right: 1em;
 }
 #header_menu a:hover {
-	color: <?php echo $color_primary1; ?>;
+	color: <?php echo $color_base_mid_light; ?>;
 	transition: color 0.5s;
 }
 
@@ -100,7 +118,9 @@ header .logo_hamburger {
 @media (min-width: 1200px) {
 
 }
+@media (min-width: 1600px) {
 
+}
 </style>
 <header class="fixed-top container-fluid">
 	<div class="row">
@@ -174,6 +194,33 @@ h1 {
 		}
 	?>
 }
+
+.button {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.button:hover {
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.5s;
+}
+.button_light {
+	background-color: <?php echo $color_base_mid_light; ?>;
+	color: <?php echo $color_light; ?>;
+}
+.button_light:hover {
+	color: <?php echo $color_base_dark; ?>;
+}
+.button_dark {
+	background-color: <?php echo $color_base_dark; ?>;
+	color: <?php echo $color_light; ?>;
+}
+.button_dark:hover {
+	color: <?php echo $color_base_light; ?>;
+}
+
 @media (min-width: 576px) {
 	#body_container {
 		<?php
