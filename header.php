@@ -152,8 +152,8 @@ header .logo_hamburger {
 
 <style>
 #header_hamburger_modal .modal-body {
-	background-color: <?php echo $color_primary3; ?>;
-	color: white;
+	background-color: <?php echo $color_base_mid_dark; ?>;
+	color: <?php echo $color_light; ?>;
 }
 #header_hamburger_modal .close {
 	color: <?php echo $color_light; ?>;

@@ -4,8 +4,8 @@
 
 <style>
 footer {
-	background-color: <?php echo $color_primary5; ?>;
-	color: <?php echo $color_light; ?>;
+	background-color: <?php echo $color_base_dark; ?>;
+	color: <?php echo $color_base_light; ?>;
 	font-size: 0.8em;
 }
 footer .row {

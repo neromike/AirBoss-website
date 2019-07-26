@@ -46,10 +46,10 @@
 }
 
 #homepage_grid_message {
-	background-color: white;
+	background-color: <?php echo $color_light; ?>;
+	color: <?php echo $color_base_dark; ?>;
 	opacity: 0.9;
 	text-align: center;
-	color: <?php echo $color_primary5; ?>;
 }
 #homepage_grid_message h1 {
 	font-weight: bold;
@@ -133,14 +133,14 @@ window.onload = (function(){
 
 <style>
 .homepage_box_container {
-	background-color: white;
+	background-color: <?php echo $color_light; ?>;
 }
 .row_homepage_box_container_inner {
 	width: 80%;
 }
 .homepage_box {
-	background-color: <?php echo $color_primary5; ?>;
-	color: #d1e0eb;
+	background-color: <?php echo $color_base_dark; ?>;
+	color: <?php echo $color_light; ?>;
 	font-family: 'Nanum Gothic', sans-serif;
 	margin-top: 2px;
 	margin-bottom: 2px;
@@ -176,7 +176,7 @@ window.onload = (function(){
 		display: flex;
 	}
 	.homepage_box_inner {
-		background-color: <?php echo $color_primary5; ?>;
+		background-color: <?php echo $color_base_dark; ?>;
 	}
 	.homepage_box_button {
 		position: absolute;
@@ -242,7 +242,7 @@ window.onload = (function(){
 
 <style>
 .homepage_aboutus {
-	background-color: #e8edf2;
+	background-color: <?php echo $color_grey; ?>;
 }
 .homepage_aboutus h1 {
 	text-transform: uppercase;
@@ -273,8 +273,8 @@ window.onload = (function(){
 
 <style>
 .homepage_contactus {
-	background-color: white;
-	color: #184668;
+	background-color: <?php echo $color_light; ?>;
+	color: <?php echo $color_base_dark; ?>;
 }
 .homepage_contactus h1 {
 	font-size: 3em;
@@ -291,15 +291,15 @@ window.onload = (function(){
 	padding-bottom: 0.5em;
 	border-radius: 0.5em;
 	margin-bottom: 5px;
-	border: 1px solid #184668;
+	border: 1px solid <?php echo $color_base_dark; ?>;
+}
 .homepage_contactus .button {
 	border-radius: 0px;
 	margin-bottom: 2em;
 }
 #homepage_contactus_message {
 	padding-bottom: 1em;
-	color: #ff9696;
-
+	color: <?php echo $color_base_mid_dark; ?>;
 }
 </style>
 <div class="homepage_contactus row">

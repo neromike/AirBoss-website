@@ -18,16 +18,16 @@
   margin-bottom: 1em !important;
 }
 .person_info {
-  background-color: <?php echo $color_primary5; ?>;
   font-size: 1.5em;
   line-height: 1.2em;
   padding-left: 1em;
+  background-color: <?php echo $color_base_dark; ?>;
 }
 .person_name {
   color: <?php echo $color_light; ?>;
 }
 .person_title {
-  color: <?php echo $color_primary1; ?>;
+  color: <?php echo $color_base_light; ?>;
 }
 .person_image {
   width: 120px;
@@ -41,6 +41,7 @@
 }
 .person_copy {
   font-size: 0.9em;
+  color: <?php echo $color_base_dark; ?>
 }
 </style>
 <div class="row text-center">
