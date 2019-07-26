@@ -245,13 +245,8 @@ window.onload = (function(){
 	background-color: <?php echo $color_grey; ?>;
 }
 .homepage_aboutus h1 {
-	text-transform: uppercase;
-	font-family: 'Nanum Gothic', sans-serif;
 	padding-top: 1em;
 	padding-bottom: 0.5em;
-	color: #184668;
-	font-size: 3em;
-}
 }
 </style>
 <div class="homepage_aboutus row">
@@ -277,12 +272,8 @@ window.onload = (function(){
 	color: <?php echo $color_base_dark; ?>;
 }
 .homepage_contactus h1 {
-	font-size: 3em;
-	text-transform: uppercase;
-	font-family: 'Nanum Gothic', sans-serif;
 	padding-top: 1em;
 	padding-bottom: 0.5em;
-	color: #184668;
 }
 .homepage_contactus input, textarea {
 	padding-left: 1em;

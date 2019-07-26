@@ -2,10 +2,6 @@
 
 
 <style>
-.about_overall_copy {
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
 .person_container {
   margin-bottom: 3em;
   padding-left: 2em;

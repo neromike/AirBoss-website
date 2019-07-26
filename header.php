@@ -180,11 +180,6 @@ header .logo_hamburger {
 
 
 <style>
-h1 {
-    text-transform: uppercase;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
 #body_container {
 	<?php
 		if (basename($_SERVER['PHP_SELF']) == 'index.php') {
