@@ -1,13 +1,15 @@
 <?php require 'header.php'; ?>
 
 
+<!-- ********************************************* -->
+<!-- *** Grid                                  *** -->
+<!-- ********************************************* -->
+
 <style>
 #homepage_grid_container {
 	position: absolute;
 	top: 92px;
 	width: 100%;
-	//background-image: url(img/grid_square.png);
-	//background-image: url(img/grid_square.png), radial-gradient(#426F9C, #144677);
 	background-image: url(img/grid_square.png), radial-gradient(#426F9C, #144677);
 	background-size: calc(100% / 8), cover;
 	overflow: hidden;
@@ -19,7 +21,6 @@
 	position: relative;
 }
 #homepage_grid_img {
-	//max-height: 520px;
 	max-width: 100%;
 	height: auto;
 	width: auto;
@@ -128,6 +129,9 @@ window.onload = (function(){
 })
 </script>
 
+
+<!-- ********************************************* -->
+<!-- *** Boxes                                 *** -->
 <!-- ********************************************* -->
 
 
@@ -190,6 +194,9 @@ window.onload = (function(){
 @media (min-width: 1200px) {
 
 }
+@media (min-width: 1600px) {
+
+}
 </style>
 <div class="row homepage_box_container">
 	<div class="d-none d-sm-block col-sm-1"></div>
@@ -238,6 +245,8 @@ window.onload = (function(){
 
 
 <!-- ********************************************* -->
+<!-- *** About                                 *** -->
+<!-- ********************************************* -->
 
 
 <style>
@@ -263,6 +272,8 @@ window.onload = (function(){
 </div>
 
 
+<!-- ********************************************* -->
+<!-- *** Contact                               *** -->
 <!-- ********************************************* -->
 
 
