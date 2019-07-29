@@ -167,6 +167,7 @@ header .logo_hamburger {
 					<span aria-hidden="true">&times;</span>
 				</button>
 				<p>&nbsp;</p>
+				<p><a href="index.php">Home</a></p>
 				<p><a href="about.php">About</a></p>
 				<p><a href="services.php">Services</a></p>
 				<p><a href="projects.php">Projects</a></p>
