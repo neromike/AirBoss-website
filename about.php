@@ -48,38 +48,39 @@
   </div>
 
 
-<?php
-$people = array(
-  array("Dave Fawcett", "President"),
-  array("Shana Spindler", "Chief Revenue Officer"),
-  array("Skip Holm", "Test Pilot"),
-  array("Len Fox", "Test Pilot")
-);
-?>
+  <?php
+  $people = array(
+    array("Dave Fawcett", "President"),
+    array("Shana Spindler", "Chief Revenue Officer"),
+    array("Skip Holm", "Test Pilot"),
+    array("Len Fox", "Test Pilot")
+  );
+  ?>
 
 
-<?php foreach ($people as $person) { ?>
-  <div class="person_container col-12 col-md-6">
-    <div class="person_containerA row d-table text-left">
-      <div class="person_image">
-        <img src="img/about_<?php echo strtolower(str_replace(" ", "_", $person[0])); ?>.jpg" />
-      </div>
-      <div class="person_info d-table-cell align-middle">
-        <div class="person_name">
-          <?php echo $person[0]; ?>
+  <?php foreach ($people as $person) { ?>
+    <div class="person_container col-12 col-md-6">
+      <div class="person_containerA row d-table text-left">
+        <div class="person_image">
+          <img src="img/about_<?php echo strtolower(str_replace(" ", "_", $person[0])); ?>.jpg" />
         </div>
-        <div class="person_title">
-          <?php echo $person[1]; ?>
+        <div class="person_info d-table-cell align-middle">
+          <div class="person_name">
+            <?php echo $person[0]; ?>
+          </div>
+          <div class="person_title">
+            <?php echo $person[1]; ?>
+          </div>
+        </div>
+      </div>
+      <div class="person_containerB row">
+        <div class="person_copy col-12">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus lobortis imperdiet. Phasellus pulvinar cursus nisl, et pulvinar eros consequat non. Sed lorem augue, dapibus et nisl sit amet, finibus hendrerit sapien. Suspendisse viverra odio nunc, vitae tincidunt diam blandit eget. Sed pretium metus id purus ullamcorper auctor. Proin gravida, erat eget fermentum vestibulum.
         </div>
       </div>
     </div>
-    <div class="person_containerB row">
-      <div class="person_copy col-12">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus lobortis imperdiet. Phasellus pulvinar cursus nisl, et pulvinar eros consequat non. Sed lorem augue, dapibus et nisl sit amet, finibus hendrerit sapien. Suspendisse viverra odio nunc, vitae tincidunt diam blandit eget. Sed pretium metus id purus ullamcorper auctor. Proin gravida, erat eget fermentum vestibulum.
-      </div>
-    </div>
-  </div>
-<?php } ?>
+  <?php } ?>
+</div>
 
 
 <?php require 'footer.php'; ?>
