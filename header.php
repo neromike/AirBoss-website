@@ -34,17 +34,10 @@
 	$color_light = "#FFFFFF";
 	$color_grey = "#e8edf2";
 
-	$color_base = "#144677";
-	$color_primary1 = "#426F9C";
-	$color_primary2 = "#265C8F";
-	$color_primary3 = "#144677";
-	$color_primary4 = "#073561";
-	$color_primary5 = "#032546";
-	$color_comp1 = "#F0B35A";
-	$color_comp2 = "#DC952E";
-	$color_comp3 = "#B77413";
-	$color_comp4 = "#965900";
-	$color_comp5 = "#6C4000";
+	$email_address = "dave@airboss-aerospace.com";
+	$address1 = "5336 Wells Fargo Dr.";
+	$address2 = "Colorado Springs, CO 80918";
+	$phone_number = "(719) 532-0636";
 ?>
 
 <style>
