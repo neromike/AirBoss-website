@@ -245,5 +245,8 @@ header .logo_hamburger {
 @media (min-width: 1200px) {
 
 }
+@media (min-width: 1600px) {
+
+}
 </style>
 <div id="body_container" class="container-fluid">
