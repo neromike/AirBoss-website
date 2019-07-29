@@ -23,8 +23,10 @@ footer .row {
 
 </body>
 <script>
-document.addEventListener("contextmenu2", function(e){
-    e.preventDefault();
-}, false);
+  let href = $('.contact_email').attr('href').replace('<?php echo $email_address_obfuscate . '.'; ?>', '.');
+	console.log(href);
+  $('.contact_email').attr('href', href);
+  href = href.replace('mailto:', '');
+  $('.contact_email').html(href);
 </script>
 </html>

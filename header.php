@@ -34,7 +34,8 @@
 	$color_light = "#FFFFFF";
 	$color_grey = "#e8edf2";
 
-	$email_address = "dave@airboss-aerospace.com";
+	$email_address_obfuscate = "-planes";
+	$email_address = "dave@airboss-aerospace" . $email_address_obfuscate . ".com";
 	$address1 = "5336 Wells Fargo Dr.";
 	$address2 = "Colorado Springs, CO 80918";
 	$phone_number = "(719) 532-0636";

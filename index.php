@@ -310,13 +310,13 @@ window.onload = (function(){
 		We can make anything fly
 		<br /><br />
 		<p>
-			5336 Wells Fargo Dr.
+			<?php echo $address1; ?>
 			<br />
-			Colorado Springs, CO 80918
+			<?php echo $address2; ?>
 			<br />
-			dave@airboss-aerospace.com
+			<a href="mailto:<?php echo $email_address; ?>" class="contact_email"><?php echo $email_address; ?></a>
 			<br />
-			(719) 532-0636
+			<?php echo $phone_number; ?>
 		</p>
 		<form>
 			<input id="contactus_name" type="text" placeholder="Name" />
