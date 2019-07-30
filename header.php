@@ -48,6 +48,10 @@
 a {
 	color: inherit;
 }
+a.contact_email:hover {
+	text-decoration: none;
+	color: inherit;
+}
 h1 {
 	color: <?php echo $color_base_dark; ?>;
     text-transform: uppercase;
