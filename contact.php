@@ -15,6 +15,10 @@
   padding-top: 2em;
   padding-bottom: 2em;
 }
+.contact_subpage_copy {
+  font-size: 1.3em;
+  line-height: 1.7em;
+}
 </style>
 <div class="row text-center">
     <h1 class="col-12">Contact</h1>
@@ -26,11 +30,11 @@
     </div>
     <div class="contact_subpage col-12">
       <div class="row">
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-sm-6 align-self-center">
           <?php require 'contact_form.php'; ?>
         </div>
-        <div class="col-12 col-sm-6">
-          Airboss Aviation Group, Inc.
+        <div class="col-12 col-sm-6 align-self-center contact_subpage_copy">
+          <strong>Airboss Aviation Group, Inc.</strong>
           <br />
           <?php echo $address1; ?>
           <br />
