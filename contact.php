@@ -41,7 +41,7 @@
           <a href="tel:<?php echo $phone_number; ?>" class="contact_link"><?echo $phone_number; ?></a>
         </div>
     </div>
-
+  </div>
 </div>
 
 
