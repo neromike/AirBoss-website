@@ -2,6 +2,9 @@
 
 
 <style>
+.about_overall_copy {
+  padding-bottom: 1em;
+}
 .person_container {
   margin-bottom: 3em;
   padding-left: 2em;
