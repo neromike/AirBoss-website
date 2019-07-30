@@ -1,5 +1,5 @@
 <style>
-.homepage_contactus input, textarea {
+.contactus_container input, textarea {
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-top: 0.5em;
@@ -8,16 +8,16 @@
 	margin-bottom: 5px;
 	border: 1px solid <?php echo $color_base_dark; ?>;
 }
-.homepage_contactus .button {
+.contactus_container .button {
 	border-radius: 0px;
 	margin-bottom: 2em;
 }
-.homepage_contactus_message {
+.contactus_container {
 	padding-bottom: 1em;
 	color: <?php echo $color_base_mid_dark; ?>;
 }
 </style>
-<form>
+<form class="contactus_container">
 	<input class="contactus_name" type="text" placeholder="Name" />
 	<br />
 	<input class="contactus_email" type="email" placeholder="Email" />

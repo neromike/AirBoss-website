@@ -48,7 +48,7 @@
 a {
 	color: inherit;
 }
-a.contact_email:hover {
+a.contact_link:hover {
 	text-decoration: none;
 	color: inherit;
 }

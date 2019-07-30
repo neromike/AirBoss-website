@@ -301,9 +301,9 @@ window.onload = (function(){
 			<br />
 			<?php echo $address2; ?>
 			<br />
-			<a href="mailto:<?php echo $email_address; ?>" target="_blank" class="contact_email"><?php echo $email_address; ?></a>
+			<a href="mailto:<?php echo $email_address; ?>" target="_blank" class="contact_link contact_email"><?php echo $email_address; ?></a>
 			<br />
-			<?php echo $phone_number; ?>
+			<a href="tel:<?php echo $phone_number; ?>" class="contact_link"><?echo $phone_number; ?></a>
 		</p>
 		<?php require 'contact_form.php'; ?>
 	</div>
