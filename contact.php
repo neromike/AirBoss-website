@@ -21,7 +21,7 @@
     <div class="col-12">
       <div class="contact_subtitle">We can make anything fly</div>
       <div class="contact_email_container">
-        <a href="mailto:<?php echo $email_address; ?>" target="_blank" class="contact_email"><?php echo $email_address; ?></a>
+        <a href="mailto:<?php echo $email_address; ?>" target="_blank" class="contact_link contact_email"><?php echo $email_address; ?></a>
       </div>
     </div>
     <div class="contact_subpage col-12">
