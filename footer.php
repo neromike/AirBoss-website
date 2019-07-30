@@ -24,9 +24,50 @@ footer .row {
 </body>
 <script>
   let href = $('.contact_email').attr('href').replace('<?php echo $email_address_obfuscate . '.'; ?>', '.');
-	console.log(href);
   $('.contact_email').attr('href', href);
   href = href.replace('mailto:', '');
   $('.contact_email').html(href);
+
+	function emailIsValid (email) {
+		return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+	}
+	function send_contact() {
+		$('.homepage_contactus_message').html('');
+		let contact_name = $('.contactus_name').val().trim();
+		let contact_email = $('.contactus_email').val().trim();
+		let contact_subject = $('.contactus_subject').val().trim();
+		let contact_message = $('.contactus_message').val().trim();
+
+		/*
+		if (contact_name.length < 3) {
+			$('.homepage_contactus_message').html('Please enter your name.');
+			return;
+		};
+		if (contact_email.length < 5) {
+			$('.homepage_contactus_message').html('Please enter your email address.');
+			return;
+		};
+		if (! emailIsValid(contact_email)) {
+			$('.homepage_contactus_message').html('Please enter a valid email address.');
+			return;
+		}
+		if (contact_subject.length < 1) {
+			$('.homepage_contactus_message').html('Please enter a subject.');
+			return;
+		};
+		if (contact_message.length < 10) {
+			$('.homepage_contactus_message').html('Please enter a message.');
+			return;
+		};
+		*/
+
+		$.ajax({
+			url: "send_mail.php",
+			type: "POST",
+			data: {"name":contact_name, "email":contact_email, "subject":contact_subject, "message":contact_message}
+		}).done(function(data) {
+			console.log(data);
+		});
+	};
 </script>
 </html>

@@ -319,62 +319,19 @@ window.onload = (function(){
 			<?php echo $phone_number; ?>
 		</p>
 		<form>
-			<input id="contactus_name" type="text" placeholder="Name" />
+			<input class="contactus_name" type="text" placeholder="Name" />
 			<br />
-			<input id="contactus_email" type="email" placeholder="Email" />
+			<input class="contactus_email" type="email" placeholder="Email" />
 			<br />
-			<input id="contactus_subject" type="text" placeholder="Subject" />
+			<input class="contactus_subject" type="text" placeholder="Subject" />
 			<br />
-			<textarea id="contactus_message" placeholder="Message"></textarea>
+			<textarea class="contactus_message" placeholder="Message"></textarea>
 			<br />
-			<div id="homepage_contactus_message"></div>
+			<div class="homepage_contactus_message"></div>
 			<input class="button button_light" onclick="send_contact(); return false;" type="submit" />
 		</form>
 	</div>
 </div>
-<script>
-function emailIsValid (email) {
-	return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
-}
-function send_contact() {
-	$('#homepage_contactus_message').html('');
-	let contact_name = $('#contactus_name').val().trim();
-	let contact_email = $('#contactus_email').val().trim();
-	let contact_subject = $('#contactus_subject').val().trim();
-	let contact_message = $('#contactus_message').val().trim();
-
-	/*
-	if (contact_name.length < 3) {
-		$('#homepage_contactus_message').html('Please enter your name.');
-		return;
-	};
-	if (contact_email.length < 5) {
-		$('#homepage_contactus_message').html('Please enter your email address.');
-		return;
-	};
-	if (! emailIsValid(contact_email)) {
-		$('#homepage_contactus_message').html('Please enter a valid email address.');
-		return;
-	}
-	if (contact_subject.length < 1) {
-		$('#homepage_contactus_message').html('Please enter a subject.');
-		return;
-	};
-	if (contact_message.length < 10) {
-		$('#homepage_contactus_message').html('Please enter a message.');
-		return;
-	};
-	*/
-
-	$.ajax({
-		url: "send_mail.php",
-		type: "POST",
-		data: {"name":contact_name, "email":contact_email, "subject":contact_subject, "message":contact_message}
-	}).done(function(data) {
-		console.log(data);
-	});
-};
-</script>
 
 
 <?php require 'footer.php'; ?>
