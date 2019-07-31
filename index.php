@@ -208,7 +208,7 @@ window.onload = (function(){
 			<div class="homepage_box col-12 col-sm-10 col-lg-4 text-center">
 				<div class="homepage_box_inner">
 					<h4>Services</h4>
-					<div class="homepage_box_desc">We have over 25 years of experience working from conceptual design to test flight. GIve us your idea, and we'll make it fly.</div>
+					<div class="homepage_box_desc">AirBoss Aviation has over 25 years of experience working from conceptual design to test flight. Give us your idea, and we’ll take it from a sketch to the sky.</div>
 					<a class="homepage_box_button button button_light" href="services.php">More Info</a>
 					<br /><br />
 				</div>
@@ -219,7 +219,7 @@ window.onload = (function(){
 			<div class="homepage_box col-12 col-sm-10 col-lg-4 text-center">
 				<div class="homepage_box_inner">
 					<h4>Projects</h4>
-					<div class="homepage_box_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus pretium dignissim. Vestibulum ullamcorper, purus a faucibus placerat, metus purus.</div>
+					<div class="homepage_box_desc">We have managed the configuration, design, and build of light sport and high performance jets, spacecraft components, and vertical take off and landing vehicles.</div>
 					<a class="homepage_box_button button button_light" href="projects.php">More Info</a>
 					<br /><br />
 				</div>
@@ -230,7 +230,7 @@ window.onload = (function(){
 			<div class="homepage_box col-12 col-sm-10 col-lg-4 text-center">
 				<div class="homepage_box_inner">
 					<h4>Press</h4>
-					<div class="homepage_box_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus pretium dignissim. Vestibulum ullamcorper, purus a faucibus placerat, metus purus.</div>
+					<div class="homepage_box_desc">AirBoss Aviation is a driving force in the aerospace industry. We take conceptual design to the next level, pushing the boundaries of current technology. </div>
 					<a class="homepage_box_button button button_light" href="press.php">More Info</a>
 					<br /><br />
 				</div>
