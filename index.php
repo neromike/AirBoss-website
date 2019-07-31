@@ -262,8 +262,9 @@ window.onload = (function(){
 	<div class="col-1"></div>
 	<div class="col-10 text-center">
 		<h1>About Us</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pulvinar elit, eget aliquam purus. Phasellus sed posuere elit. Suspendisse elementum dui in nisi tincidunt consectetur. Integer urna lacus, rutrum ut massa in, placerat mattis ipsum. Donec at maximus est. Quisque ultricies tincidunt diam ac pharetra. Nam tincidunt iaculis enim eu suscipit. Etiam est est, posuere sit amet felis vehicula, finibus fringilla velit. Phasellus lobortis diam at risus viverra, eget pharetra nisl mollis. Sed placerat lacinia justo, sed maximus nunc feugiat sit amet. Praesent ex sapien, varius vitae mollis finibus, pulvinar quis sapien. Aliquam ullamcorper fermentum nibh, quis egestas eros rutrum quis. Duis ipsum odio, placerat consectetur imperdiet eget, scelerisque id tortor.</p>
-		<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque nec feugiat turpis. Vestibulum sit amet est ac lorem cursus tincidunt. Cras et tellus turpis. Nunc vitae dictum ipsum. Vestibulum tempor justo id mauris lobortis, vitae vestibulum lacus faucibus. Sed eu hendrerit tortor, dictum ultricies ante. In sit amet orci velit.</p>
+		<p>AirBoss Aviation is a design/engineering/prototyping firm primarily dedicated to the aviation industry. We have a staff of engineers, consultants, and pilots to match any challenge put before us. The past and present experience of our staff has already touched upon many successful designs flying today in the homebuilt market and with the military.</p>
+		<p>Our talents range from conceptual aircraft design, structural analysis, modal analysis, aerodynamics, thermodynamics, propulsion systems, fabrication, prototype production, and flight testing.</p>
+		<p>We work with our clients to design what they want. We will offer sound advice to ensure the design is safe and meets the mission requirements. We realize that your success is our success.</p>
 		<br />
 		<a class="button button_dark" href="about.php">Read More</a>
 		<br /><br /><br />
