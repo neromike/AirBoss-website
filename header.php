@@ -142,7 +142,8 @@ header .logo_hamburger {
 			<a href="about.php">About</a>
 			<a href="services.php">Services</a>
 			<a href="projects.php">Projects</a>
-			<a href="gallery.php">Gallery</a>
+			<a href="press.php">Press</a>
+			<!--<a href="gallery.php">Gallery</a>-->
 			<a href="contact.php">Contact</a>
 		</div>
 	</div>
@@ -169,7 +170,8 @@ header .logo_hamburger {
 				<p><a href="about.php">About</a></p>
 				<p><a href="services.php">Services</a></p>
 				<p><a href="projects.php">Projects</a></p>
-				<p><a href="gallery.php">Gallery</a></p>
+				<p><a href="press.php">Press</a></p>
+				<!--<p><a href="gallery.php">Gallery</a></p>-->
 				<p><a href="contact.php">Contact</a></p>
 				<p>&nbsp;</p>
 			</div>

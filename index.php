@@ -229,9 +229,9 @@ window.onload = (function(){
 			<div class="d-none d-sm-block col-sm-1 d-lg-none">&nbsp;</div>
 			<div class="homepage_box col-12 col-sm-10 col-lg-4 text-center">
 				<div class="homepage_box_inner">
-					<h4>Gallery</h4>
+					<h4>Press</h4>
 					<div class="homepage_box_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus pretium dignissim. Vestibulum ullamcorper, purus a faucibus placerat, metus purus.</div>
-					<a class="homepage_box_button button button_light" href="gallery.php">More Info</a>
+					<a class="homepage_box_button button button_light" href="press.php">More Info</a>
 					<br /><br />
 				</div>
 			</div>
