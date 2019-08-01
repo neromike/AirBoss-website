@@ -184,7 +184,7 @@ header .logo_hamburger {
 #body_container {
 	<?php
 		if (basename($_SERVER['PHP_SELF']) == 'index.php') {
-			echo "margin-top: 410px;";
+			echo "margin-top: 400px;";
 		} else {
 			echo "margin-top: 96px;";
 		}
@@ -221,7 +221,7 @@ header .logo_hamburger {
 	#body_container {
 		<?php
 			if (basename($_SERVER['PHP_SELF']) == 'index.php') {
-				echo "margin-top: 450px;";
+				echo "margin-top: 440px;";
 			} else {
 				echo "margin-top: 96px;";
 			}
@@ -232,7 +232,7 @@ header .logo_hamburger {
 	#body_container {
 		<?php
 			if (basename($_SERVER['PHP_SELF']) == 'index.php') {
-				echo "margin-top: 590px;";
+				echo "margin-top: 586px;";
 			} else {
 				echo "margin-top: 96px;";
 			}

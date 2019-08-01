@@ -56,6 +56,8 @@
 	font-weight: bold;
 	padding-top: 0.25em;
 	font-size: 3em;
+	margin-top: 0em;
+	margin-bottom: 0.2em;
 }
 #homepage_grid_message_text {
 	padding-bottom: 1em;
