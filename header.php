@@ -58,6 +58,9 @@ h1 {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+hr {
+	width: 100%;
+}
 .page_overview_copy {
   padding-top: 2em;
   padding-bottom: 2em;
