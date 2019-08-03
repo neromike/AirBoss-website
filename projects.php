@@ -13,6 +13,12 @@ if (isset($_GET['error'])) {
 .page_overview_copy {
   font-size: 1.3em;
 }
+.scroll_link {
+  color: <?php echo $color_base_dark; ?> !important;
+}
+.project_epoch {
+  color: <?php echo $color_base_dark; ?>;
+}
 .scroll_link:hover {
   cursor: pointer;
   color: <?php echo $color_base_light; ?> !important;
@@ -47,6 +53,10 @@ if (isset($_GET['error'])) {
   position: absolute;
   top: 0px;
 }
+.project_name {
+  color: <?php echo $color_base_dark; ?>;
+}
+.project_
 .project_container img {
   width: 100%;
 }
@@ -213,10 +223,9 @@ if (isset($_GET['error'])) {
       scrollTop: 0,
     }, 500, 'linear');
   });
-  
   window.onload = (function(){
     $(window).scroll(function () {
-      // make the plane take off if the user scrolls down more than 20 pixels on the page
+      // scroll to top only appears after the user has scrolled down some amount
       if ( $(window).scrollTop() > 100 ) {
         $('#scroll_to_top').show();
       } else {
