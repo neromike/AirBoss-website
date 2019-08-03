@@ -98,13 +98,32 @@ header .logo_hamburger {
 }
 
 #header_menu a {
-	color: <?php echo $color_base_light; ?>;
+	color: <?php echo $color_grey; ?>;
 	margin-left: 1em;
 	margin-right: 1em;
 }
 #header_menu a:hover {
 	color: <?php echo $color_base_mid_light; ?>;
 	transition: color 0.5s;
+}
+#header_menu a.header_current {
+	color: <?php echo $color_base_light; ?>;
+	cursor: default;
+}
+#header_hamburger_modal a {
+	color: <?php echo $color_grey; ?>;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	cursor: pointer;
+	padding: 0.4em;
+}
+#header_hamburger_modal a:hover {
+	text-decoration: none;
+	color: <?php echo $color_base_light; ?>;
+}
+#header_hamburger_modal a.header_current {
+	color: <?php echo $color_base_mid_light; ?>;
+	cursor: default;
 }
 
 @media (min-width: 576px) {
@@ -141,13 +160,15 @@ header .logo_hamburger {
 		</a>
 
 		<!-- MENU FOR LARGER SCREENS -->
+		<?php $page_name = basename($_SERVER["SCRIPT_FILENAME"], '.php'); ?>
 		<div id="header_menu" class="text-right col-6 d-none d-lg-block">
-			<a href="about.php">About</a>
-			<a href="services.php">Services</a>
-			<a href="projects.php">Projects</a>
-			<a href="press.php">Press</a>
-			<!--<a href="gallery.php">Gallery</a>-->
-			<a href="contact.php">Contact</a>
+			<a href="about.php" <?php if ($page_name == 'about') { echo 'class="header_current"'; }; ?>>About</a>
+			<a href="services.php" <?php if ($page_name == 'services') { echo 'class="header_current"'; }; ?>>Services</a>
+			<a href="projects.php" <?php if ($page_name == 'projects') { echo 'class="header_current"'; }; ?>>Projects</a>
+			<a href="press.php" <?php if ($page_name == 'press') { echo 'class="header_current"'; }; ?>>Press</a>
+			<!--<a href="gallery.php" <?php if ($page_name == 'gallery') { echo 'class="header_current"'; }; ?>>Gallery</a>-->
+			<a href="contact.php" <?php if ($page_name == 'contact') { echo 'class="header_current"'; }; ?>>Contact</a>
+
 		</div>
 	</div>
 </header>
@@ -169,13 +190,13 @@ header .logo_hamburger {
 					<span aria-hidden="true">&times;</span>
 				</button>
 				<p>&nbsp;</p>
-				<p><a href="index.php">Home</a></p>
-				<p><a href="about.php">About</a></p>
-				<p><a href="services.php">Services</a></p>
-				<p><a href="projects.php">Projects</a></p>
-				<p><a href="press.php">Press</a></p>
-				<!--<p><a href="gallery.php">Gallery</a></p>-->
-				<p><a href="contact.php">Contact</a></p>
+				<p><a href="index.php" <?php if ($page_name == 'index') { echo 'class="header_current"'; }; ?>>Home</a></p>
+				<p><a href="about.php" <?php if ($page_name == 'about') { echo 'class="header_current"'; }; ?>>About</a></p>
+				<p><a href="services.php" <?php if ($page_name == 'services') { echo 'class="header_current"'; }; ?>>Services</a></p>
+				<p><a href="projects.php" <?php if ($page_name == 'projects') { echo 'class="header_current"'; }; ?>>Projects</a></p>
+				<p><a href="press.php" <?php if ($page_name == 'press') { echo 'class="header_current"'; }; ?>>Press</a></p>
+				<!--<p><a href="gallery.php" <?php if ($page_name == 'gallery') { echo 'class="header_current"'; }; ?>>Gallery</a></p>-->
+				<p><a href="contact.php" <?php if ($page_name == 'contact') { echo 'class="header_current"'; }; ?>>Contact</a></p>
 				<p>&nbsp;</p>
 			</div>
 		</div>
