@@ -1,0 +1,1067 @@
+newmtl Black_Matte
+Kd 0.8 0.8 0.8
+Ke 0 0 0
+Ka 0.03 0.03 0.03
+Ks 0.05 0.05 0.05
+Ns 4300
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Black_Matte_1
+Kd 0.8 0.8 0.8
+Ke 0 0 0
+Ka 0.03 0.03 0.03
+Ks 0.05 0.05 0.05
+Ns 4300
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Black_Matte_2
+Kd 0.8 0.8 0.8
+Ke 0 0 0
+Ka 0.03 0.03 0.03
+Ks 0.05 0.05 0.05
+Ns 4300
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Bolts
+Kd 0.196232 0.211842 0.227451
+Ke 0 0 0
+Ka 1 1 1
+Ks 1 1 1
+Ns 189
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Bone
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl ClearPlastic
+Kd 0.764706 0.764706 0.764706
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0.7
+d 0.3
+Ni 1
+Tf 1 1 1
+
+newmtl Contact_Plate
+Kd 0.317647 0.317647 0.317647
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl cut
+Kd 0.227451 0.223529 0.211765
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.1 0.1 0.1
+Ns 150
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Engine_Mount
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Exterior
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl exterior
+Kd 0.901961 0.901961 0.901961
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl exterior-bottom
+Kd 0.901961 0.901961 0.901961
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Frames
+Kd 0.439216 0.439216 0.439216
+Ke 0 0 0
+Ka 1 1 1
+Ks 1 1 1
+Ns 189
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl foam
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Glass
+Kd 0.545098 0.560784 0.639216
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 1
+d 0
+Ni 1
+Tf 0.545 0.545 0.545
+
+newmtl Green_OXG_Tank
+Kd 0.113725 0.427451 0.341176
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Grey_Plastic
+Kd 0.901961 0.901961 0.901961
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Grey_Plastic_2
+Kd 0.901961 0.901961 0.901961
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Guage_UV
+Kd 0.258824 0.286275 0.333333
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Handles
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl InnerMetal
+Kd 0.552941 0.552941 0.552941
+Ke 0 0 0
+Ka 1 1 1
+Ks 1 1 1
+Ns 200
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Interior
+Kd 0.368627 0.415686 0.533333
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl interior
+Kd 0.505882 0.505882 0.505882
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Left_Fan_TXT
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Leftt_Duct
+Kd 0.819608 0 0
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_1
+Kd 0.384314 0.347389 0.162768
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 300
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_2
+Kd 0.193878 0.0592849 0.0592849
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_2_1
+Kd 0.193878 0.0592849 0.0592849
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_3
+Kd 0.156863 0.156863 0.156863
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_3_1
+Kd 0.156863 0.156863 0.156863
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_3_2
+Kd 0.156863 0.156863 0.156863
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_3_3
+Kd 0.156863 0.156863 0.156863
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_3_4
+Kd 0.156863 0.156863 0.156863
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lower_EXT
+Kd 0.819608 0 0
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Mat.2_9
+Kd 0.8 0.8 0.8
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.08 0.08 0.08
+Ns 6500
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Metal
+Kd 0.384314 0.415686 0.45098
+Ke 0 0 0
+Ka 0.35 0.35 0.35
+Ks 1 1 1
+Ns 189
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Metal_-_Stainless_Steel_Brushed_Radial
+Kd 0.901961 0.901961 0.901961
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Plastic_handle
+Kd 0.247059 0.254902 0.286275
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.2 0.2 0.2
+Ns 200
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Pod_Top
+Kd 0.831373 0.831373 0.831373
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Props
+Kd 0.105882 0.109804 0.113725
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.8 0.8 0.8
+Ns 250
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Red
+Kd 0.819608 0 0
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Right_Connector
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Right_Duct
+Kd 0.819608 0 0
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Right_Fan_TXT
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Screen
+Kd 0.27451 0.294118 0.317647
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.8 0.8 0.8
+Ns 189
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl wrap
+Kd 0.0941176 0.439216 0.172549
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Black_Matte
+Kd 0.8 0.8 0.8
+Ke 0 0 0
+Ka 0.03 0.03 0.03
+Ks 0.05 0.05 0.05
+Ns 4300
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Black_Matte_1
+Kd 0.8 0.8 0.8
+Ke 0 0 0
+Ka 0.03 0.03 0.03
+Ks 0.05 0.05 0.05
+Ns 4300
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Black_Matte_2
+Kd 0.8 0.8 0.8
+Ke 0 0 0
+Ka 0.03 0.03 0.03
+Ks 0.05 0.05 0.05
+Ns 4300
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Bolts
+Kd 0.196232 0.211842 0.227451
+Ke 0 0 0
+Ka 1 1 1
+Ks 1 1 1
+Ns 189
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Bone
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl ClearPlastic
+Kd 0.764706 0.764706 0.764706
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0.7
+d 0.3
+Ni 1
+Tf 1 1 1
+
+newmtl Contact_Plate
+Kd 0.317647 0.317647 0.317647
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl cut
+Kd 0.227451 0.223529 0.211765
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.1 0.1 0.1
+Ns 150
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Engine_Mount
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Exterior
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl exterior
+Kd 0.901961 0.901961 0.901961
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl exterior-bottom
+Kd 0.901961 0.901961 0.901961
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Frames
+Kd 0.439216 0.439216 0.439216
+Ke 0 0 0
+Ka 1 1 1
+Ks 1 1 1
+Ns 189
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl foam
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Glass
+Kd 0.545098 0.560784 0.639216
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 1
+d 0
+Ni 1
+Tf 0.545 0.545 0.545
+
+newmtl Green_OXG_Tank
+Kd 0.113725 0.427451 0.341176
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Grey_Plastic
+Kd 0.901961 0.901961 0.901961
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Grey_Plastic_2
+Kd 0.901961 0.901961 0.901961
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Guage_UV
+Kd 0.258824 0.286275 0.333333
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Handles
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl InnerMetal
+Kd 0.552941 0.552941 0.552941
+Ke 0 0 0
+Ka 1 1 1
+Ks 1 1 1
+Ns 200
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Interior
+Kd 0.368627 0.415686 0.533333
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl interior
+Kd 0.505882 0.505882 0.505882
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Left_Fan_TXT
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Leftt_Duct
+Kd 0.819608 0 0
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_1
+Kd 0.384314 0.347389 0.162768
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 300
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_2
+Kd 0.193878 0.0592849 0.0592849
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_2_1
+Kd 0.193878 0.0592849 0.0592849
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_3
+Kd 0.156863 0.156863 0.156863
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_3_1
+Kd 0.156863 0.156863 0.156863
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_3_2
+Kd 0.156863 0.156863 0.156863
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_3_3
+Kd 0.156863 0.156863 0.156863
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lens_3_4
+Kd 0.156863 0.156863 0.156863
+Ke 0 0 0
+Ka 1 1 1
+Ks 1.5 1.5 1.5
+Ns 6799
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Lower_EXT
+Kd 0.819608 0 0
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Mat.2_9
+Kd 0.8 0.8 0.8
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.08 0.08 0.08
+Ns 6500
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Metal
+Kd 0.384314 0.415686 0.45098
+Ke 0 0 0
+Ka 0.35 0.35 0.35
+Ks 1 1 1
+Ns 189
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Metal_-_Stainless_Steel_Brushed_Radial
+Kd 0.901961 0.901961 0.901961
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Plastic_handle
+Kd 0.247059 0.254902 0.286275
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.2 0.2 0.2
+Ns 200
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Pod_Top
+Kd 0.831373 0.831373 0.831373
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Props
+Kd 0.105882 0.109804 0.113725
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.8 0.8 0.8
+Ns 250
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Red
+Kd 0.819608 0 0
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Right_Connector
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Right_Duct
+Kd 0.819608 0 0
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Right_Fan_TXT
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Screen
+Kd 0.27451 0.294118 0.317647
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.8 0.8 0.8
+Ns 189
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl wrap
+Kd 0.0941176 0.439216 0.172549
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.3 0.3 0.3
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Bone
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Engine_Mount
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl InnerMetal
+Kd 0.552941 0.552941 0.552941
+Ke 0 0 0
+Ka 1 1 1
+Ks 1 1 1
+Ns 200
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Metal
+Kd 0.384314 0.415686 0.45098
+Ke 0 0 0
+Ka 0.35 0.35 0.35
+Ks 1 1 1
+Ns 189
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Props
+Kd 0.105882 0.109804 0.113725
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.8 0.8 0.8
+Ns 250
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
