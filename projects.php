@@ -95,10 +95,9 @@ if (isset($_GET['error'])) {
   <script>
   $('.scroll_link').click(function() {
     var this_section = 'epoch_' + $(this).html().replace(' ', '_').toLowerCase();
-    console.log(this_section);
     $('html, body').animate({
       scrollTop: $('#' + this_section).offset().top - 100,
-    }, 500, 'linear')
+    }, 500, 'linear');
   });
   </script>
 
@@ -190,6 +189,41 @@ if (isset($_GET['error'])) {
     </div>
     <div class="d-none d-md-block col-md-1"></div>
   <?php } ?>
+
+  <style>
+  #scroll_to_top {
+    font-size: 3em;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    z-index: 1000;
+    color: <?php echo $color_base_dark; ?>;
+    text-shadow: 0px 0px 6px <?php echo $color_light; ?>;
+    cursor: pointer;
+    display: none;
+  }
+  </style>
+  <div id="scroll_to_top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </div>
+  <script>
+  $('#scroll_to_top').click(function() {
+    $('html, body').animate({
+      scrollTop: 0,
+    }, 500, 'linear');
+  });
+  
+  window.onload = (function(){
+    $(window).scroll(function () {
+      // make the plane take off if the user scrolls down more than 20 pixels on the page
+      if ( $(window).scrollTop() > 100 ) {
+        $('#scroll_to_top').show();
+      } else {
+        $('#scroll_to_top').hide();
+      }
+    });
+  });
+  </script>
 
 </div>
 
