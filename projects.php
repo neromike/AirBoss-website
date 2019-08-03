@@ -14,8 +14,9 @@ if (isset($_GET['error'])) {
   font-size: 1.3em;
 }
 .scroll_link:hover {
-  text-decoration: underline overline !important;
-  color: <?php echo $color_base_dark; ?>;
+  cursor: pointer;
+  color: <?php echo $color_base_light; ?> !important;
+  transition: color 0.5s;
 }
 .project_container {
   margin-bottom: 1em;
