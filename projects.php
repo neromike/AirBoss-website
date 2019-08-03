@@ -49,9 +49,6 @@ if (isset($_GET['error'])) {
 .project_container img {
   width: 100%;
 }
-.col-no-padding {
-  padding: 0px;
-}
 
 @media (min-width: 576px) {
   .project_container {
@@ -62,7 +59,9 @@ if (isset($_GET['error'])) {
   }
 }
 @media (min-width: 768px) {
-
+  .col-no-padding {
+    padding: 0px;
+  }
 }
 @media (min-width: 992px) {
 
