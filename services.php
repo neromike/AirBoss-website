@@ -13,9 +13,19 @@
   color: <?php echo $color_base_dark; ?>;
   cursor: pointer;
 }
+.service_blurb2_hidden {
+  opacity: 0;
+  font-size: 0px;
+  height: 0px;
+}
+.serivce_blurb2_visible {
+  opacity: 1;
+  font-size: 1em;
+  transition: font-size 300ms ease-in, opacity 300ms;
+}
 .service_read_more {
   font-weight: bold;
-}3
+}
 </style>
 <div class="row text-center">
   <h1 class="col-12">Services</h1>
@@ -87,9 +97,6 @@
            <p>AirBoss strives to be a single source where dreams can become reality. We are proud of our services and ensure that our clients are too. Together, we can lay out the best course that will ensure the successful completion of the project.</p>")
 	);
 	?>
-  <script>
-  var service_blurb_extension = [];
-  </script>
 
 	<?php foreach ($services as $service) { ?>
     <div class="d-none d-md-block col-md-1"></div>
@@ -102,16 +109,13 @@
           <h3 class="service_name"><?php echo $service[0]; ?></h3>
           <div class="service_blurb">
             <?php echo $service[2]; ?>
-            <div class="service_blurb2"></div>
+            <div class="service_blurb2 service_blurb2_hidden"><?php echo $service[3]; ?></div>
             <div class="service_read_more">Read more <i class='fas fa-sort-down'></i></div>
           </div>
         </div>
 			</div>
 		</div>
     <div class="d-none d-md-block col-md-1"></div>
-    <script>
-      service_blurb_extension["<?php echo $service[1] ?>"] = `<?php echo $service[3]; ?>`;
-    </script>
 	<?php } ?>
 
   <script>
@@ -120,11 +124,11 @@
     $('.service_link').click(function() {
       let this_id = $(this).attr('id');
       let curr_closed = $('#' + this_id + ' .service_read_more').html().indexOf('Read more') != -1;
+      $('#' + this_id + ' .service_blurb2').toggleClass('serivce_blurb2_visible');
+      $('#' + this_id + ' .service_blurb2').toggleClass('service_blurb2_hidden');
       if (curr_closed) {
-        $('#' + this_id + ' .service_blurb2').html( service_blurb_extension[this_id] );
         $('#' + this_id + ' .service_read_more').html(message_collapse);
       } else {
-        $('#' + this_id + ' .service_blurb2').html('');
         $('#' + this_id + ' .service_read_more').html(message_read_more);
       }
     })
