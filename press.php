@@ -66,6 +66,10 @@
   font-style: italic;
   margin-bottom: 1em;
 }
+.press_source img {
+  max-width: 40%;
+  max-height: 50px;
+}
 .press_info {
   text-align: center !important;
 }
@@ -83,6 +87,9 @@
 @media (min-width: 768px) {
   .press_source {
     margin-bottom: 0em;
+  }
+  .press_source img {
+    max-width: 80%;
   }
   .press_info {
     text-align: left !important;
@@ -106,8 +113,10 @@
 	<?php foreach ($press as $press_item) { ?>
     <a href="<?php echo $press_item[3]; ?>" target="_blank" class="press_item col-12">
       <div class="row">
-        <div class="press_source col-12 col-md-3 align-self-center"><?php echo $press_item[2]; ?></div>
-        <div class="press_info col-12 col-sm-9 text-left">
+        <div class="press_source col-12 col-md-3 align-self-center">
+          <img src="img/press/<?php echo str_replace("–", "-", str_replace(" ", "_", strtolower($press_item[2]))); ?>.jpg" />
+        </div>
+        <div class="press_info col-12 col-sm-9 text-left align-self-center">
           <h3 class="press_title"><?php echo $press_item[0]; ?></h3>
           <div class="press_date"><?php echo $press_item[1]; ?></div>
         </div>
