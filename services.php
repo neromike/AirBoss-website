@@ -30,7 +30,7 @@
 <div class="row text-center">
   <h1 class="col-12">Services</h1>
 
-	<?php
+  <?php
 	$services = array(
 	  array("Conceptual Design & Preliminary Engineering",
           "services_conceptual-design",
@@ -132,6 +132,40 @@
         $('#' + this_id + ' .service_read_more').html(message_read_more);
       }
     })
+  </script>
+  
+  <style>
+  #scroll_to_top {
+    font-size: 3em;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    z-index: 1000;
+    color: <?php echo $color_base_dark; ?>;
+    text-shadow: 0px 0px 6px <?php echo $color_light; ?>;
+    cursor: pointer;
+    display: none;
+  }
+  </style>
+  <div id="scroll_to_top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </div>
+  <script>
+  $('#scroll_to_top').click(function() {
+    $('html, body').animate({
+      scrollTop: 0,
+    }, 500, 'linear');
+  });
+  window.onload = (function(){
+    $(window).scroll(function () {
+      // scroll to top only appears after the user has scrolled down some amount
+      if ( $(window).scrollTop() > 100 ) {
+        $('#scroll_to_top').show();
+      } else {
+        $('#scroll_to_top').hide();
+      }
+    });
+  });
   </script>
 </div>
 
