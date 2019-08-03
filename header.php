@@ -162,13 +162,12 @@ header .logo_hamburger {
 		<!-- MENU FOR LARGER SCREENS -->
 		<?php $page_name = basename($_SERVER["SCRIPT_FILENAME"], '.php'); ?>
 		<div id="header_menu" class="text-right col-6 d-none d-lg-block">
-			<a href="about.php" <?php if ($page_name == 'about') { echo 'class="header_current"'; }; ?>>About</a>
-			<a href="services.php" <?php if ($page_name == 'services') { echo 'class="header_current"'; }; ?>>Services</a>
-			<a href="projects.php" <?php if ($page_name == 'projects') { echo 'class="header_current"'; }; ?>>Projects</a>
-			<a href="press.php" <?php if ($page_name == 'press') { echo 'class="header_current"'; }; ?>>Press</a>
-			<!--<a href="gallery.php" <?php if ($page_name == 'gallery') { echo 'class="header_current"'; }; ?>>Gallery</a>-->
-			<a href="contact.php" <?php if ($page_name == 'contact') { echo 'class="header_current"'; }; ?>>Contact</a>
-
+			<a <?php if ($page_name == 'about') { echo 'class="header_current"'; } else { echo 'href="about.php"'; }; ?>>About</a>
+			<a <?php if ($page_name == 'services') { echo 'class="header_current"'; } else { echo 'href="services.php"'; }; ?>>Services</a>
+			<a <?php if ($page_name == 'projects') { echo 'class="header_current"'; } else { echo 'href="projects.php"'; }; ?>>Projects</a>
+			<a <?php if ($page_name == 'press') { echo 'class="header_current"'; } else { echo 'href="press.php"'; }; ?>>Press</a>
+			<!--<a <?php #if ($page_name == 'gallery') { echo 'class="header_current"'; } else { echo 'href="gallery.php"'; }; ?>>Gallery</a>-->
+			<a <?php if ($page_name == 'contact') { echo 'class="header_current"'; } else { echo 'href="contact.php"'; }; ?>>Contact</a>
 		</div>
 	</div>
 </header>
@@ -190,13 +189,13 @@ header .logo_hamburger {
 					<span aria-hidden="true">&times;</span>
 				</button>
 				<p>&nbsp;</p>
-				<p><a href="index.php" <?php if ($page_name == 'index') { echo 'class="header_current"'; }; ?>>Home</a></p>
-				<p><a href="about.php" <?php if ($page_name == 'about') { echo 'class="header_current"'; }; ?>>About</a></p>
-				<p><a href="services.php" <?php if ($page_name == 'services') { echo 'class="header_current"'; }; ?>>Services</a></p>
-				<p><a href="projects.php" <?php if ($page_name == 'projects') { echo 'class="header_current"'; }; ?>>Projects</a></p>
-				<p><a href="press.php" <?php if ($page_name == 'press') { echo 'class="header_current"'; }; ?>>Press</a></p>
-				<!--<p><a href="gallery.php" <?php if ($page_name == 'gallery') { echo 'class="header_current"'; }; ?>>Gallery</a></p>-->
-				<p><a href="contact.php" <?php if ($page_name == 'contact') { echo 'class="header_current"'; }; ?>>Contact</a></p>
+				<p><a <?php if ($page_name == 'index') { echo 'class="header_current"'; } else { echo 'href="index.php"'; }; ?>>Home</a></p>
+				<p><a <?php if ($page_name == 'about') { echo 'class="header_current"'; } else { echo 'href="about.php"'; }; ?>>About</a></p>
+				<p><a <?php if ($page_name == 'services') { echo 'class="header_current"'; } else { echo 'href="services.php"'; }; ?>>Services</a></p>
+				<p><a <?php if ($page_name == 'projects') { echo 'class="header_current"'; } else { echo 'href="projects.php"'; }; ?>>Projects</a></p>
+				<p><a <?php if ($page_name == 'press') { echo 'class="header_current"'; } else { echo 'href="press.php"'; }; ?>>Press</a></p>
+				<!--<p><a <?php #if ($page_name == 'gallery') { echo 'class="header_current"'; } else { echo 'href="gallery.php"'; }; ?>>Gallery</a></p>-->
+				<p><a <?php if ($page_name == 'contact') { echo 'class="header_current"'; } else { echo 'href="contact.php"'; }; ?>>Contact</a></p>
 				<p>&nbsp;</p>
 			</div>
 		</div>
