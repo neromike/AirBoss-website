@@ -156,7 +156,7 @@ if (isset($_GET['error'])) {
             <div class="row">
               <div class="col-1 col-no-padding"></div>
               <!--<a class="col-10 project_container" href="project.php?aircraft=<?php #echo $project_shortcut; ?>">-->
-              <a class="col-10 project_container" data-toggle="modal" data-target="#<?php echo $project_shortcut; ?>">
+              <a class="col-10 project_container" href="#" data-toggle="modal" data-target="#<?php echo $project_shortcut; ?>">
                 <div class="project_image_container">
                   <div class="project_image" style="background-image:url(img/project/<?php echo $project_shortcut; ?>.jpg)"></div>
                 </div>
