@@ -49,6 +49,16 @@ if (isset($_GET['error'])) {
 .project_container img {
   width: 100%;
 }
+.modal-header > .close {
+  position: absolute;
+  right: 1em;
+}
+.modal-header > .modal-title {
+  margin-right: 1em;
+}
+.modal_image {
+  width: 100%;
+}
 
 @media (min-width: 576px) {
   .project_container {
@@ -145,7 +155,8 @@ if (isset($_GET['error'])) {
           <div class="col-12 col-md-4 col-no-padding">
             <div class="row">
               <div class="col-1 col-no-padding"></div>
-              <a class="col-10 project_container" href="project.php?aircraft=<?php echo $project_shortcut; ?>">
+              <!--<a class="col-10 project_container" href="project.php?aircraft=<?php #echo $project_shortcut; ?>">-->
+              <a class="col-10 project_container" data-toggle="modal" data-target="#<?php echo $project_shortcut; ?>">
                 <div class="project_image_container">
                   <div class="project_image" style="background-image:url(img/project/<?php echo $project_shortcut; ?>.jpg)"></div>
                 </div>
@@ -154,6 +165,26 @@ if (isset($_GET['error'])) {
               <div class="col-1 col-no-padding"></div>
             </div>
           </div>
+
+          <div id="<?php echo $project_shortcut; ?>" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title"><?php echo $project; ?></h4>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    <img class="modal_image" src="img/project/<?php echo $project_shortcut; ?>.jpg" />
+                   </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
         <?php } ?>
       </div>
     </div>
