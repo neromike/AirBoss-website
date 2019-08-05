@@ -53,10 +53,18 @@
 
   <?php
   $people = array(
-    array("Dave Fawcett", "President"),
-    array("Shana Spindler", "Chief Revenue Officer"),
-    array("Skip Holm", "Test Pilot"),
-    array("Len Fox", "Test Pilot")
+    array("Dave Fawcett", "dave_fawcett", "President",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus lobortis imperdiet. Phasellus pulvinar cursus nisl, et pulvinar eros consequat non. Sed lorem augue, dapibus et nisl sit amet, finibus hendrerit sapien. Suspendisse viverra odio nunc, vitae tincidunt diam blandit eget. Sed pretium metus id purus ullamcorper auctor. Proin gravida, erat eget fermentum vestibulum."),
+    array("Shana Spindler, Ph.D.", "shana_spindler","Director of Corporate Development",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus lobortis imperdiet. Phasellus pulvinar cursus nisl, et pulvinar eros consequat non. Sed lorem augue, dapibus et nisl sit amet, finibus hendrerit sapien. Suspendisse viverra odio nunc, vitae tincidunt diam blandit eget. Sed pretium metus id purus ullamcorper auctor. Proin gravida, erat eget fermentum vestibulum."),
+    array("Dave Levine, EA, MGFC, CTRS", "dave_levine", "Chief Financial Officer",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus lobortis imperdiet. Phasellus pulvinar cursus nisl, et pulvinar eros consequat non. Sed lorem augue, dapibus et nisl sit amet, finibus hendrerit sapien. Suspendisse viverra odio nunc, vitae tincidunt diam blandit eget. Sed pretium metus id purus ullamcorper auctor. Proin gravida, erat eget fermentum vestibulum."),
+    array("Wayne Pereanu, Ph.D.", "wayne_pereanu", "Chief Technology Officer",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus lobortis imperdiet. Phasellus pulvinar cursus nisl, et pulvinar eros consequat non. Sed lorem augue, dapibus et nisl sit amet, finibus hendrerit sapien. Suspendisse viverra odio nunc, vitae tincidunt diam blandit eget. Sed pretium metus id purus ullamcorper auctor. Proin gravida, erat eget fermentum vestibulum."),
+    array("Skip Holm", "skip_holm", "Test Pilot",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus lobortis imperdiet. Phasellus pulvinar cursus nisl, et pulvinar eros consequat non. Sed lorem augue, dapibus et nisl sit amet, finibus hendrerit sapien. Suspendisse viverra odio nunc, vitae tincidunt diam blandit eget. Sed pretium metus id purus ullamcorper auctor. Proin gravida, erat eget fermentum vestibulum."),
+    array("Len Fox", "len_fox", "Consulting Test Pilot",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus lobortis imperdiet. Phasellus pulvinar cursus nisl, et pulvinar eros consequat non. Sed lorem augue, dapibus et nisl sit amet, finibus hendrerit sapien. Suspendisse viverra odio nunc, vitae tincidunt diam blandit eget. Sed pretium metus id purus ullamcorper auctor. Proin gravida, erat eget fermentum vestibulum.")
   );
   ?>
 
@@ -65,20 +73,20 @@
     <div class="person_container col-12 col-md-6">
       <div class="person_containerA row d-table text-left">
         <div class="person_image">
-          <img src="img/about_<?php echo strtolower(str_replace(" ", "_", $person[0])); ?>.jpg" />
+          <img src="img/about_<?php echo $person[1]; ?>.jpg" />
         </div>
         <div class="person_info d-table-cell align-middle">
           <div class="person_name">
             <?php echo $person[0]; ?>
           </div>
           <div class="person_title">
-            <?php echo $person[1]; ?>
+            <?php echo $person[2]; ?>
           </div>
         </div>
       </div>
       <div class="person_containerB row">
         <div class="person_copy col-12">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus lobortis imperdiet. Phasellus pulvinar cursus nisl, et pulvinar eros consequat non. Sed lorem augue, dapibus et nisl sit amet, finibus hendrerit sapien. Suspendisse viverra odio nunc, vitae tincidunt diam blandit eget. Sed pretium metus id purus ullamcorper auctor. Proin gravida, erat eget fermentum vestibulum.
+          <?php echo $person[3]; ?>
         </div>
       </div>
     </div>
