@@ -5,8 +5,16 @@
 .service_container {
   margin-bottom: 2em;
 }
+.service_img {
+  min-height: 200px;
+  display: flex;
+}
 .service_img img {
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-filter: drop-shadow(0px -1px 11px #000);
+  filter: drop-shadow(0px -1px 11px #000);
 }
 .service_link:hover {
   text-decoration: none;
@@ -33,7 +41,8 @@
   <?php
 	$services = array(
 	  array("Conceptual Design & Preliminary Engineering",
-          "services_conceptual-design",
+          "services_paper_conceptual-design",
+          $color_base_dark,
           "<ul>
            <li>Develop initial concepts for stated mission</li>
            <li>Perform preliminary design review</li>
@@ -42,7 +51,8 @@
            <p>After the conceptual design is complete, we perform a Preliminary Design Review (PDR). During the PDR, we address technical objectives, feasibility, functional/performance requirements, preliminary mechanical/structural/thermal/aerodynamic analysis, software requirements, and parts/materials selection.</p>
            <p>The completion of a successful PDR marks the end of the preliminary design phase of the project and the beginning of detailed engineering.</p>"),
 	  array("Detailed Engineering",
-          "services_detailed-engineering",
+          "services_paper_detailed-engineering",
+          $color_base_mid_dark,
           "<ul>
            <li>Computational fluid dynamics (CFD)</li>
            <li>Finite element analysis (FEA)</li>
@@ -55,7 +65,8 @@
            <p>After every phase of engineering and analysis, we generate a report to cover the methods and results of the analysis. Using the results, we identify and specify composite laminate schedules on accompanying part drawings. Every part we design is individually documented in CAD with a part number. Parts are easily identified down to the nut and bolt. We maintain all revision history through Product Data Management (PDM) software systems.</p>
            <p>We can deliver supporting design documentation in a variety of formats. This enables us to send solid model information directly to a Computer Numerical Control (CNC) subcontractor to generate rapid prototype tools, parts, or models. We also integrate all vendor information into the design to keep an accurate bill of materials for the project and to produce detailed assembly drawings for installation.</p>"),
     array("Prototype Construction",
-          "services_prototype-construction",
+          "services_paper_prototype-construction",
+          $color_base_mid_light,
           "<ul>
            <li>Composite component fabrication</li>
            <li>Prototype construction</li>
@@ -67,7 +78,8 @@
            <p>Other specialists are brought in during the fabrication of the prototype. AirBoss oversees the entire systems integration into the vehicle as the systems are developed and installed. We ensure that at the end of prototype construction, all supporting documentation and drawings reflect the numerous changes that come with the first prototype fabrication.</p>
            <p>When the time comes, we will show up at the job site with our staff of engineers and support.  We can bring fabricators, engineers, outside specialists, and even test pilots. On-site program management is critical for the success of the program.</p>"),
     array("Flight Testing",
-          "services_flight-testing",
+          "services_paper_flight-testing",
+          $color_base_mid_dark,
           "<ul>
            <li>Flight or system tests</li>
            <li>Test plan development</li>
@@ -76,7 +88,8 @@
            <p>AirBoss also works closely with Len Fox. Len has flown nearly all of our projects to date. Len received the Spirit of Flight award at Oshkosh 2005, a yearly award presented by the Society of Experimental Test Pilots.</p>
            <p>Both pilots provide an extensive and well thought out flight test program to any project, keeping safety paramount.</p>"),
 	  array("Project Management",
-          "services_project-management",
+          "services_paper_project-management",
+          $color_base_dark,
           "<ul>
            <li>Project management</li>
            <li>R&D program planning</li>
@@ -102,14 +115,14 @@
     <div class="d-none d-md-block col-md-1"></div>
     <div class="service_container col-12 col-md-10">
 			<div class="row">
-				<div class="service_img col-12 col-md-3">
-          <img src="img/service/<?php echo $service[1]; ?>.jpg" />
+				<div class="service_img col-12 col-md-3" style="background-color:<?php echo $service[2]; ?>;">
+          <img class="align-self-center" src="img/service/<?php echo $service[1]; ?>.png" />
 				</div>
 				<div class="col-12 col-md-9 text-left service_link" id="<?php echo $service[1]; ?>">
           <h3 class="service_name"><?php echo $service[0]; ?></h3>
           <div class="service_blurb">
-            <?php echo $service[2]; ?>
-            <div class="service_blurb2 service_blurb2_hidden"><?php echo $service[3]; ?></div>
+            <?php echo $service[3]; ?>
+            <div class="service_blurb2 service_blurb2_hidden"><?php echo $service[4]; ?></div>
             <div class="service_read_more">Read more <i class='fas fa-sort-down'></i></div>
           </div>
         </div>
