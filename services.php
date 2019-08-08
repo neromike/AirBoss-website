@@ -6,15 +6,16 @@
   margin-bottom: 2em;
 }
 .service_img {
-  min-height: 200px;
   display: flex;
 }
 .service_img img {
-  width: 80%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   -webkit-filter: drop-shadow(0px -1px 11px #000);
   filter: drop-shadow(0px -1px 11px #000);
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 .service_link:hover {
   text-decoration: none;
@@ -33,6 +34,23 @@
 }
 .service_read_more {
   font-weight: bold;
+}
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+  .service_img img {
+    width: 80%;
+  }
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1600px) {
+
 }
 </style>
 <div class="row text-center">
@@ -146,7 +164,7 @@
       }
     })
   </script>
-  
+
   <style>
   #scroll_to_top {
     font-size: 3em;
