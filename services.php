@@ -134,7 +134,7 @@
     <div class="service_container col-12 col-md-10">
 			<div class="row">
 				<div class="service_img col-12 col-md-3" style="background-color:<?php echo $service[2]; ?>;">
-          <img class="align-self-center" src="img/service/<?php echo $service[1]; ?>.png" />
+          <img class="align-self-center" src="img/service/<?php echo $service[1]; ?>.png?v=1" />
 				</div>
 				<div class="col-12 col-md-9 text-left service_link" id="<?php echo $service[1]; ?>">
           <h3 class="service_name"><?php echo $service[0]; ?></h3>
