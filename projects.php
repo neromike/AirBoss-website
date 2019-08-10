@@ -1,6 +1,10 @@
 <?php require 'header.php'; ?>
 
 
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 <?php
 if (isset($_GET['error'])) {
   if ($_GET['error'] == 'missing_project') {
@@ -67,8 +71,14 @@ if (isset($_GET['error'])) {
 .modal-header > .modal-title {
   margin-right: 1em;
 }
+.gallery_container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 .modal_image {
   width: 100%;
+  height: auto;
 }
 
 @media (min-width: 576px) {
@@ -140,7 +150,8 @@ if (isset($_GET['error'])) {
         "Freedom Aviation",
         "EmJay 909",
         "Saker SA-1",
-        "Sonic Jet"
+        "Sonic Jet",
+        "Advanced Unmanned"
       ),
       "featured" => array(
         "PJ-2 High Performance UAV Jet",
@@ -166,7 +177,7 @@ if (isset($_GET['error'])) {
             <div class="row">
               <div class="col-1 col-no-padding"></div>
               <!--<a class="col-10 project_container" href="project.php?aircraft=<?php #echo $project_shortcut; ?>">-->
-              <a class="col-10 project_container" href="#" data-toggle="modal" data-target="#<?php echo $project_shortcut; ?>">
+              <a class="col-10 project_container" href="#" data-toggle="modal" data-target="#modal_<?php echo $project_shortcut; ?>">
                 <div class="project_image_container">
                   <div class="project_image" style="background-image:url(img/project/<?php echo $project_shortcut; ?>.jpg)"></div>
                 </div>
@@ -176,17 +187,20 @@ if (isset($_GET['error'])) {
             </div>
           </div>
 
-          <div id="<?php echo $project_shortcut; ?>" class="modal fade" role="dialog">
+          <div id="modal_<?php echo $project_shortcut; ?>" class="modal fade" role="dialog">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
                   <h4 class="modal-title"><?php echo $project; ?></h4>
                 </div>
                 <div class="modal-body">
-                  <p>
-                    <img class="modal_image" src="img/project/<?php echo $project_shortcut; ?>.jpg" />
-                   </p>
+                  <div class="gallery_container">
+
+                      <img id="modal_first_image_<?php echo $project_shortcut; ?>" class="modal_image" src="img/project/<?php echo $project_shortcut; ?>.jpg" />
+                      <img class="modal_image" src="img/project/<?php echo $project_shortcut; ?>.jpg" />
+
+                  </div>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -200,6 +214,28 @@ if (isset($_GET['error'])) {
     </div>
     <div class="d-none d-md-block col-md-1"></div>
   <?php } ?>
+  <script>
+  $(document).ready(function(){
+  //$(window).on('shown.bs.modal', function() {
+    $('.gallery_container').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      adaptiveHeight: false,
+      autoplay: false,
+      autoplaySpeed: 2000
+    });
+  });
+  $('.project_container').on('click touch', function(e) {
+    console.log('modal opened');
+    var load_carousel = function() {
+      console.log('load_carousel');
+      $('.gallery_container').slick("setPosition");
+    };
+    setTimeout(load_carousel, 3000);
+  });
+  </script>
 
   <style>
   #scroll_to_top {
