@@ -33,7 +33,7 @@
   transition: font-size 300ms ease-in, opacity 300ms;
 }
 .service_blurb2_img {
-  max-width: 40%;
+  max-width: 60%;
   margin-top: 1em;
 }
 .service_blurb2_img_visible {
@@ -59,6 +59,9 @@
 @media (min-width: 768px) {
   .service_img img {
     width: 80%;
+  }
+  .service_blurb2_img {
+    max-width: 40%;
   }
 }
 @media (min-width: 992px) {
