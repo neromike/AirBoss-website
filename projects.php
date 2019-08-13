@@ -136,7 +136,6 @@ if (isset($_GET['error'])) {
         "Jet Link Communications",
         "Proteus",
         "Turbo Raven",
-        "Methane Rocket Engine",
         "Red Bull Racer",
         "The Orion GT"
       ),
