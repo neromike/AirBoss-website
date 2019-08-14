@@ -15,13 +15,16 @@ if (isset($_GET['error'])) {
 
 <style>
 .page_overview_copy {
-  font-size: 1.3em;
+  font-size: 1.2em;
+  padding-top: 0em;
+  padding-bottom: 0em;
 }
 .scroll_link {
   color: <?php echo $color_base_dark; ?> !important;
 }
 .project_epoch {
   color: <?php echo $color_base_dark; ?>;
+  padding-top: 1em;
 }
 .scroll_link:hover {
   cursor: pointer;
@@ -60,7 +63,6 @@ if (isset($_GET['error'])) {
 .project_name {
   color: <?php echo $color_base_dark; ?>;
 }
-.project_
 .project_container img {
   width: 100%;
 }
@@ -166,7 +168,6 @@ if (isset($_GET['error'])) {
     <div class="d-none d-md-block col-md-1"></div>
     <div class="col-12 col-md-10">
       <div class="row">
-        <hr />
         <h3 class="col-12 project_epoch" id="epoch_<?php echo str_replace(" ", "_", $project_epoch); ?>"><?php echo ucwords($project_epoch); ?></h3>
         <?php foreach ($projects[$project_epoch] as $project) {
           $project_shortcut = strtolower(str_replace("/", "", str_replace(" ", "_", $project)));
