@@ -45,6 +45,9 @@
 * {
 	font-family: 'Nanum Gothic', sans-serif;
 }
+body {
+	overscroll-behavior-y: none;
+}
 a {
 	color: inherit;
 }
