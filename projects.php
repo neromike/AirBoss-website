@@ -227,12 +227,14 @@ if (isset($_GET['error'])) {
     });
   });
   $('.project_container').on('click touch', function(e) {
-    console.log('modal opened');
+    var track = $( $(this).attr('data-target') + ' .slick-track' );
     var load_carousel = function() {
-      console.log('load_carousel');
-      $('.gallery_container').slick("setPosition");
+      if (track.height() > 0) {
+        $('.gallery_container').slick("setPosition");
+        clearInterval( check_carousel_loaded );
+      }
     };
-    setTimeout(load_carousel, 3000);
+    var check_carousel_loaded = setInterval(load_carousel, 50);
   });
   </script>
 
