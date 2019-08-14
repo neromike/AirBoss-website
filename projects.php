@@ -111,7 +111,7 @@ if (isset($_GET['error'])) {
     &bull;
     <a class="scroll_link">Current</a>
     &bull;
-    <a class="scroll_link">Select Past</a>
+    <a class="scroll_link">Selected Past</a>
   </div>
   <script>
   $('.scroll_link').click(function() {
@@ -124,46 +124,45 @@ if (isset($_GET['error'])) {
 
   <?php
     $projects = array(
-      "select past" => array(
-        "Viper Jet",
-        "Maverick Jet",
-        "Epic Aircraft",
-        "Fourwinds Aircraft",
-        "ATG Javelin",
-        "MX-2",
-        "ION Aircraft",
-        "Heavy Lifter",
-        "Jet Link Communications",
-        "Proteus",
-        "Turbo Raven",
-        "Red Bull Racer",
-        "The Orion GT"
-      ),
-      "current" => array(
-        "RA Aircraft series",
-        "Hensley Wolf",
-        "Subscale Trifan",
-        "Coaxial Helicopter",
-        "WHATEVER WE WANT!",
-        "Stalwart SA-1",
-        "Freedom Aviation",
-        "EmJay 909",
-        "Saker SA-1",
-        "Sonic Jet",
-        "Advanced Unmanned"
-      ),
       "featured" => array(
+        "Angel Lyft",
+        "Bear series aircraft",
+        "Hornet",
+        "PAV / Medevac",
         "PJ-2 High Performance UAV Jet",
         "Regional Cargo Aircraft",
-        "Bear series aircraft",
-        "PAV / Medevac",
-        "Angel Lyft",
-        "Hornet"
+      ),
+      "current" => array(
+        "Advanced Unmanned",
+        "Coaxial Helicopter",
+        "EmJay 909",
+        "Hensley Wolf",
+        "RA Aircraft series",
+        "Saker SA-1",
+        "Sonic Jet",
+        "Subscale Trifan",
+      ),
+      "selected past" => array(
+        "ATG Javelin",
+        "Epic Aircraft",
+        "Fourwinds Aircraft",
+        "Freedom Aviation",
+        "Heavy Lifter",
+        "ION Aircraft",
+        "Jet Link Communications",
+        "Maverick Jet",
+        "MX-2",
+        "Proteus",
+        "Red Bull Racer",
+        "Stalwart SA-1",
+        "The Orion GT",
+        "Turbo Raven",
+        "Viper Jet",
       ),
     );
   ?>
 
-  <?php foreach( array("featured", "current", "select past") as $project_epoch) { ?>
+  <?php foreach( array("featured", "current", "selected past") as $project_epoch) { ?>
     <div class="d-none d-md-block col-md-1"></div>
     <div class="col-12 col-md-10">
       <div class="row">
