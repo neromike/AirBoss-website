@@ -73,7 +73,7 @@ if (isset($_GET['error'])) {
 .modal-header > .modal-title {
   margin-right: 1em;
 }
-.gallery_container {
+.gallery_container_style {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -81,6 +81,9 @@ if (isset($_GET['error'])) {
 .modal_image {
   width: 100%;
   height: auto;
+}
+.slick-prev:before, .slick-next:before {
+  color: <?php echo $color_base_dark; ?>;
 }
 
 @media (min-width: 576px) {
@@ -194,12 +197,15 @@ if (isset($_GET['error'])) {
                   <h4 class="modal-title"><?php echo $project; ?></h4>
                 </div>
                 <div class="modal-body">
-                  <div class="gallery_container">
-
-                      <img id="modal_first_image_<?php echo $project_shortcut; ?>" class="modal_image" src="img/project/<?php echo $project_shortcut; ?>.jpg" />
-                      <img class="modal_image" src="img/project/<?php echo $project_shortcut; ?>.jpg" />
-
+                  <?php
+                    $img_list = glob('img/project/' . $project_shortcut . '*.jpg');
+                  ?>
+                  <div class="gallery_container_style<?php if (count($img_list) > 1) { echo " gallery_container"; } ?>">
+                      <?php foreach($img_list as $img) { ?>
+                        <img class="modal_image" src="<?php echo $img; ?>" />
+                      <?php } ?>
                   </div>
+                  3 sentences
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
