@@ -5,13 +5,6 @@
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-<?php
-if (isset($_GET['error'])) {
-  if ($_GET['error'] == 'missing_project') {
-    echo '<script>window.alert("Invalid project.");</script>';
-  }
-}
-?>
 
 <style>
 .page_overview_copy {
