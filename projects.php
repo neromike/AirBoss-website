@@ -123,39 +123,39 @@
   <?php
     $projects = array(
       "featured" => array(
-        "Angel Lyft",
-        "Bear series aircraft",
-        "Hornet",
-        "PAV / Medevac",
-        "PJ-2 High Performance UAV Jet",
-        "Regional Cargo Aircraft",
+        array("Angel Lyft","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Bear series aircraft","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Hornet","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("PAV / Medevac","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("PJ-2 High Performance UAV Jet","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Regional Cargo Aircraft","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
       ),
       "current" => array(
-        "Advanced Unmanned",
-        "Coaxial Helicopter",
-        "EmJay 909",
-        "Hensley Wolf",
-        "RA Aircraft series",
-        "Saker SA-1",
-        "Sonic Jet",
-        "Subscale Trifan",
+        array("Advanced Unmanned","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Coaxial Helicopter","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("EmJay 909","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Hensley Wolf","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("RA Aircraft series","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Saker SA-1","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Sonic Jet","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Subscale Trifan","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
       ),
       "selected past" => array(
-        "ATG Javelin",
-        "Epic Aircraft",
-        "Fourwinds Aircraft",
-        "Freedom Aviation",
-        "Heavy Lifter",
-        "ION Aircraft",
-        "Jet Link Communications",
-        "Maverick Jet",
-        "MX-2",
-        "Proteus",
-        "Red Bull Racer",
-        "Stalwart SA-1",
-        "The Orion GT",
-        "Turbo Raven",
-        "Viper Jet",
+        array("ATG Javelin","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Epic Aircraft","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Fourwinds Aircraft","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Freedom Aviation","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Heavy Lifter","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("ION Aircraft","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Jet Link Communications","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Maverick Jet","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("MX-2","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Proteus","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Red Bull Racer","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Stalwart SA-1","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("The Orion GT","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Turbo Raven","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Viper Jet","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
       ),
     );
   ?>
@@ -166,7 +166,7 @@
       <div class="row">
         <h3 class="col-12 project_epoch" id="epoch_<?php echo str_replace(" ", "_", $project_epoch); ?>"><?php echo ucwords($project_epoch); ?></h3>
         <?php foreach ($projects[$project_epoch] as $project) {
-          $project_shortcut = strtolower(str_replace("/", "", str_replace(" ", "_", $project)));
+          $project_shortcut = strtolower(str_replace("/", "", str_replace(" ", "_", $project[0])));
           ?>
           <div class="col-12 col-md-4 col-no-padding">
             <div class="row">
@@ -175,7 +175,7 @@
                 <div class="project_image_container">
                   <div class="project_image" style="background-image:url(img/project/main/<?php echo $project_shortcut; ?>.jpg)"></div>
                 </div>
-                <div class="project_name"><?php echo $project; ?></div>
+                <div class="project_name"><?php echo $project[0]; ?></div>
               </a>
               <div class="col-1 col-no-padding"></div>
             </div>
@@ -186,7 +186,7 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title"><?php echo $project; ?></h4>
+                  <h4 class="modal-title"><?php echo $project[0]; ?></h4>
                 </div>
                 <div class="modal-body">
                   <?php
@@ -197,7 +197,7 @@
                         <img class="modal_image" src="<?php echo $img; ?>" />
                       <?php } ?>
                   </div>
-                  3 sentences
+                  <?php echo $project[1]; ?>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
