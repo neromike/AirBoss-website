@@ -171,10 +171,9 @@
           <div class="col-12 col-md-4 col-no-padding">
             <div class="row">
               <div class="col-1 col-no-padding"></div>
-              <!--<a class="col-10 project_container" href="project.php?aircraft=<?php #echo $project_shortcut; ?>">-->
               <a class="col-10 project_container" href="#" data-toggle="modal" data-target="#modal_<?php echo $project_shortcut; ?>">
                 <div class="project_image_container">
-                  <div class="project_image" style="background-image:url(img/project/<?php echo $project_shortcut; ?>.jpg)"></div>
+                  <div class="project_image" style="background-image:url(img/project/main/<?php echo $project_shortcut; ?>.jpg)"></div>
                 </div>
                 <div class="project_name"><?php echo $project; ?></div>
               </a>
