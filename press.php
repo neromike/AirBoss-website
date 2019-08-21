@@ -3,7 +3,7 @@
 
 <?php
   $press = array();
-  $myfile = fopen("Press Links.txt", "r");
+  $myfile = fopen("Press Links.html", "r");
   if ($myfile) {
     $start_reading = false;
     $get_date = 0;
