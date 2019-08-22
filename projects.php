@@ -126,12 +126,12 @@
   <?php
     $projects = array(
       "featured" => array(
-        array("Angel Lyft","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Bear series aircraft","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Hornet","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("PAV / Medevac","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("PJ-2 High Performance UAV Jet","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Regional Cargo Aircraft","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Angel Lyft","AirBoss Aviation designed the Angel Lyft aircraft as a remotely piloted or fully autonomous first-aid vehicle that can access victims in remote or hazardous locations. WIth an ability to carry 300 pounds of payload, hover for 40 min., and reach altitudes of 14,500 feet, no other aircraft matches Angel Lyft’s specifications."),
+        array("Bear series aircraft","The Sport Bear is a safe, fast, and affordable aircraft that delivers true jet performance in a compact single-engine personal jet. Serving a new niche market, this program costs a fraction of its competitors to own and operate while providing higher speed, longer range, and unmatched safety enhancements."),
+        array("Hornet","The autonomous vehicle market lacks heavy-lift, fast, inexpensive drones. The Hornet fills this niche as a totally autonomous 4-fan aircraft that lifts over 100 pounds and reaches 50 miles per hour. Imagine life-saving medical delivery or unmatched military applications (Hellfire missile capable!). All detailed engineering for the Hornet is complete."),
+        array("PAV / Medevac","The vision of AirBoss Aviation President David Fawcett, the PAV is a personal air vehicle intended for commutes ranging from 25 to 200 miles. Its alternate configuration, the MEDEVAC is an aerial ambulance intended for transporting injured victims from accident site to medical facilities as far away as 200 miles. The vertical takeoff and landing vehicles use four shrouded props and have a payload (crew and cargo) of 660 and 870 pounds, respectively. An open-rotor option is also available."),
+        array("PJ-2 High Performance UAV Jet","The PJ-2 is an economical high performance jet with the potential for unmanned aerial flight. With .87 mach speed and head-on stealth characteristics, this aircraft is ideal for military applications. The PJ-2 has been flown as a manned aircraft and is ready for the detailed engineering of unmanned use."),
+        array("Regional Cargo Aircraft","Today’s cargo industry is container oriented, creating the need for inexpensive, container-ready aircraft. The Regional Cargo Jet carries A-1 and LD-3 containers with broader performance range than competitor aircraft. Its advanced flight deck design allows for single pilot operation in restricted categories, and the aircraft hosts short take off and landing capability. AirBoss has completed preliminary engineering for this program."),
       ),
       "current" => array(
         array("Advanced Unmanned","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
