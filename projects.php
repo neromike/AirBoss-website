@@ -78,6 +78,9 @@
 .slick-prev:before, .slick-next:before {
   color: <?php echo $color_base_dark; ?>;
 }
+.modal-body {
+  text-align: left;
+}
 
 @media (min-width: 576px) {
   .project_container {
