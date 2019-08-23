@@ -6,6 +6,9 @@
   font-style: italic;
   padding-bottom: 1em;
 }
+.contact_image {
+  width: 200px;
+}
 .contact_email_container {
   font-size: 1.5em;
   padding-bottom: 1em;
@@ -24,6 +27,7 @@
     <h1 class="col-12">Contact</h1>
     <div class="col-12">
       <div class="contact_subtitle">We can make anything fly</div>
+      <img class="contact_image" src="img/contact/contact_back.jpg" />
       <div class="contact_email_container">
         <a href="mailto:<?php echo $email_address; ?>" target="_blank" class="contact_link contact_email"><?php echo $email_address; ?></a>
       </div>
