@@ -181,7 +181,7 @@
               <div class="col-1 col-no-padding"></div>
               <a class="col-10 project_container" href="#" data-toggle="modal" data-target="#modal_<?php echo $project_shortcut; ?>">
                 <div class="project_image_container">
-                  <div class="project_image" style="background-image:url(img/project/main/<?php echo $project_shortcut; ?>.jpg?v=11)"></div>
+                  <div class="project_image" style="background-image:url(img/project/main/<?php echo $project_shortcut; ?>_web.jpg?v=12)"></div>
                 </div>
                 <div class="project_name"><?php echo $project[0]; ?></div>
               </a>
