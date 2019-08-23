@@ -134,36 +134,36 @@
         array("Regional Cargo Aircraft","Today’s cargo industry is container oriented, creating the need for inexpensive, container-ready aircraft. The Regional Cargo Jet carries A-1 and LD-3 containers with broader performance range than competitor aircraft. Its advanced flight deck design allows for single pilot operation in restricted categories, and the aircraft hosts short take off and landing capability. AirBoss has completed preliminary engineering for this program."),
       ),
       "current" => array(
-        array("Advanced Unmanned","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Coaxial Helicopter","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("EmJay 909","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Hensley Wolf","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("RA Aircraft series","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Saker SA-1","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Sonic Jet","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Subscale Trifan","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("Advanced Unmanned","The Advance Unmanned high altitude UAV is an economical option for high altitude mapping at 55-60 thousand feet. No other high altitude UAV is dedicated for mapping applications, making this a first of its kind. AirBoss Aviation has completed preliminary engineering on this program."),
+        array("Coaxial Helicopter","This utility class helicopter is unique in its large cabin area and remarkable lifting ability (2,000 pounds) relative to its small size. The Coaxial Helicopter is particularly easy to fly because it requires no tail rotor."),
+        array("EmJay 909","The EmJay909 is a military trainer aircraft with virtual training implementation. A pilot can wear a virtual reality headset to experience attack scenarios while piloting the jet. This aircraft is inexpensive to operate and build, but still maintains effective performance specifications."),
+        array("Hensley Wolf","The Hensley Wolf is a high performance, fixed-gear, light, twin engine—one of very few on the market. AirBoss Aviation designed this aircraft to have a large cabin for comfort as well as capable of flying long distances."),
+        array("RA Aircraft series","AirBoss Aviation designs and builds Rud Aero's RA series of aircraft. These vehicles are built from state-of-the-art carbon fiber and are known for being economical and high-performance. The RA2 and RA3 are currently flying. The RA4 (a four-seater) and RA6 (the first jet in the RA-series) are currently in production."),
+        array("Saker SA-1","When Saker wanted a high-performance military trainer, AirBoss Aviation stepped up! Conceptual design and preliminary engineering are complete for the first ever trainer with stealth qualities. The design incorporates a minimal vehicle radar signature, including the use of parallelism, into a supersonic trainer jet."),
+        array("Sonic Jet","With a projected speed of Mach 1.6, the Sonic Jet is set to transform the supersonic business market. AirBoss Aviation was contracted to do the conceptual design and the Sonic Jet is currently in the preliminary design phase."),
+        array("Subscale Trifan","This VTOL business jet is one-of-a-kind! It takes off vertically using three ducted fans, which then rotate horizontally to allow efficient forward propulsion. AirBoss Aviation was brought in to do a full structural analysis of this unique airframe."),
       ),
       "selected past" => array(
-        array("ATG Javelin","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Epic Aircraft","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Fourwinds Aircraft","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Freedom Aviation","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Heavy Lifter","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("ION Aircraft","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Jet Link Communications","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("JPL Ecotality","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Lima","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Maverick Jet","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Mini-737","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("MX-2","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Proteus","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Red Bull Extreme Machine","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Red Bull Racer","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Regional SeaPlane","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Sea Dragon","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("Stalwart SA-1","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("The Orion GT","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
-        array("ViperJet","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum metus vel elit feugiat tincidunt. Duis pretium turpis velit."),
+        array("ATG Javelin","AirBoss Aviation designed and built the ATG Javelin, a small high-speed personal jet and military trainer. Sporting two Williams FJ33 turbofan engines, the Javelin's speed is like nothing else in its weight class."),
+        array("Epic Aircraft","A true 350 knot airplane, the Epic Aircraft is the fastest single engine turbo prop in aviation. In addition to designing the fuselage, wing and tail, AirBoss Aviation also performed structural analysis, including all flutter analysis."),
+        array("Fourwinds Aircraft","The Fourwinds Aircraft is a high wing aircraft unlike anything on the market: no other four place plane has four doors! The design of this fixed gear plane by AirBoss produced a plane faster than most retractable gear planes."),
+        array("Freedom Aviation","This vehicle was commissioned to change the way recreational aircraft experience the world. And AirBoss Aviation delivered in spades with Freedom Aviation, a reasonably priced aircraft that redefined what it means to be amphibious."),
+        array("Heavy Lifter","Working with Motorola on the Iridium project, AirBoss Aviation completed the preliminary engineering for the Heavy Lifter, an aircraft capable of lifting and then aerially launching a 16 ton satellite into low-Earth orbit (LEO). Covered in Aviation Week, the Heavy Lifter is also capable of launching a 4 ton manned shuttle system as well."),
+        array("ION Aircraft","AirBoss Aviation designed and engineering this Light Sport Aircraft (LSA) compliant vehicle to be unique in shape and aesthetics. The plane can be purchased as a kit to be built from the ground up, or manufactured and ready to fly."),
+        array("Jet Link Communications","AirBoss Aviation was involved in modifying a Cessna CitationJet/M2 (Model 525) airframe to serve as flying relay station. The effective 43,000 foot high cell tower provides cell phone service in an 80 mile radius of the aircraft. AirBoss Aviation completed preliminary engineering and worked in collaboration with Motorola to outfit the aircraft with the appropriate electronics and antenna."),
+        array("JPL Ecotality",""),
+        array("Lima",""),
+        array("Maverick Jet","Working for Maverick Jet, AirBoss Aviation designed the LeaderJET, the world's very first Very Light Jet (VLJ). This personal jet kit plane provides heart-stopping performance. Look up! LeaderJETs are still flying in the skies around you."),
+        array("Mini-737",""),
+        array("MX-2","One of Airboss Aviation's first projects, the MX-2 is a tandem two seat carbon fiber fixed gear airplane. This plane, available as a kit, excited the market due to its maneuverability and speed. The ability to pull plus or minus 12g makes the MX-2 ideal for aerobatic maneuvers."),
+        array("Proteus","Challenge & Space contracted with AirBoss Aviation to design and develop a four seat suborbital space vehicle, the Proteus. The vehicle would serve as a testbed for the Chase 10, the world's first methane regenerative rocket engine."),
+        array("Red Bull Extreme Machine",""),
+        array("Red Bull Racer","AirBoss Aviation designed and engineered the single-engine Red Bull Racer. Our engineering was used to define the structural requirements of subsequent planes because the Racer was the only plane on the race course that could fly through pylons without getting structural damage."),
+        array("Regional SeaPlane",""),
+        array("Sea Dragon",""),
+        array("Stalwart SA-1","AirBoss Aviation designed and engineered a cargo airplane capable of transporting three-axle army vehicles for Stalwart, something no other aircraft could do efficiently. These large army vehicles required significant cargo space, which was accomplished through the use of a blended wing body (BWB) design."),
+        array("The Orion GT","AirBoss Aviation designed this six-place turbo prop canard airplane for Rud Aero. This kit plane had the largest cabin of any canard on the market, and was the only turbo prop canard as well."),
+        array("ViperJet","Chances are that you already know the AirBoss-designed ViperJet. This tandem two-place jet sports swept wings and is known for being one of the highest quality kit jets on the market. You're just as likely to spot a full-sized ViperJet flying through the skies, as you are a scaled RC model of this iconic aircraft."),
       ),
     );
   ?>
@@ -181,7 +181,7 @@
               <div class="col-1 col-no-padding"></div>
               <a class="col-10 project_container" href="#" data-toggle="modal" data-target="#modal_<?php echo $project_shortcut; ?>">
                 <div class="project_image_container">
-                  <div class="project_image" style="background-image:url(img/project/main/<?php echo $project_shortcut; ?>.jpg)"></div>
+                  <div class="project_image" style="background-image:url(img/project/main/<?php echo $project_shortcut; ?>.jpg?v=11)"></div>
                 </div>
                 <div class="project_name"><?php echo $project[0]; ?></div>
               </a>
