@@ -78,6 +78,20 @@
 .slick-prev:before, .slick-next:before {
   color: <?php echo $color_base_dark; ?>;
 }
+.project_first_decoration {
+  position: absolute;
+  bottom: 0px;
+  text-transform: uppercase;
+  width: 100%;
+  background: linear-gradient(90deg, <?php echo $color_base_dark; ?> 0%, <?php echo $color_base_light; ?> 100%);
+  color: white;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  bottom: 0.5em;
+  opacity: 0.7;
+  text-shadow: 1px 1px 1px #000000;
+  box-shadow: 0px 0px 7px #000000;
+}
 .modal-body {
   text-align: left;
 }
@@ -155,7 +169,7 @@
         array("ION Aircraft","AirBoss Aviation designed and engineering this Light Sport Aircraft (LSA) compliant vehicle to be unique in shape and aesthetics. The plane can be purchased as a kit to be built from the ground up, or manufactured and ready to fly."),
         array("Jet Link Communications","AirBoss Aviation was involved in modifying a Cessna CitationJet/M2 (Model 525) airframe to serve as flying relay station. The effective 43,000 foot high cell tower provides cell phone service in an 80 mile radius of the aircraft. AirBoss Aviation completed preliminary engineering and worked in collaboration with Motorola to outfit the aircraft with the appropriate electronics and antenna."),
         array("JPL Ecotality",""),
-        array("Lima",""),
+        array("Lima","<strong>This is AirBoss Aviation's first commissioned program!</strong><br /><br />"),
         array("Maverick Jet","Working for Maverick Jet, AirBoss Aviation designed the LeaderJET, the world's very first Very Light Jet (VLJ). This personal jet kit plane provides heart-stopping performance. Look up! LeaderJETs are still flying in the skies around you."),
         array("Mini-737",""),
         array("MX-2","One of Airboss Aviation's first projects, the MX-2 is a tandem two seat carbon fiber fixed gear airplane. This plane, available as a kit, excited the market due to its maneuverability and speed. The ability to pull plus or minus 12g makes the MX-2 ideal for aerobatic maneuvers."),
@@ -184,7 +198,11 @@
               <div class="col-1 col-no-padding"></div>
               <a class="col-10 project_container" href="#" data-toggle="modal" data-target="#modal_<?php echo $project_shortcut; ?>">
                 <div class="project_image_container">
-                  <div class="project_image" style="background-image:url(img/project/main/<?php echo $project_shortcut; ?>_web.jpg?v=15)"></div>
+                  <div class="project_image" style="background-image:url(img/project/main/<?php echo $project_shortcut; ?>_web.jpg?v=15)">
+                    <?php if ($project_shortcut == 'lima') { ?>
+                      <div class="project_first_decoration">First Commission</div>
+                    <?php } ?>
+                  </div>
                 </div>
                 <div class="project_name"><?php echo $project[0]; ?></div>
               </a>
