@@ -81,6 +81,9 @@
 .modal-body {
   text-align: left;
 }
+.gallery_empty {
+  margin-bottom: 1em;
+}
 
 @media (min-width: 576px) {
   .project_container {
@@ -181,7 +184,7 @@
               <div class="col-1 col-no-padding"></div>
               <a class="col-10 project_container" href="#" data-toggle="modal" data-target="#modal_<?php echo $project_shortcut; ?>">
                 <div class="project_image_container">
-                  <div class="project_image" style="background-image:url(img/project/main/<?php echo $project_shortcut; ?>_web.jpg?v=12)"></div>
+                  <div class="project_image" style="background-image:url(img/project/main/<?php echo $project_shortcut; ?>_web.jpg?v=15)"></div>
                 </div>
                 <div class="project_name"><?php echo $project[0]; ?></div>
               </a>
@@ -198,9 +201,9 @@
                 </div>
                 <div class="modal-body">
                   <?php
-                    $img_list = glob('img/project/' . $project_shortcut . '*.jpg');
+                    $img_list = glob('img/project/' . $project_shortcut . '/' . $project_shortcut . '*_web.jpg');
                   ?>
-                  <div class="gallery_container_style<?php if (count($img_list) > 1) { echo " gallery_container"; } ?>">
+                  <div class="gallery_container_style<?php if (count($img_list) > 1) { echo " gallery_container"; } else { echo " gallery_empty"; } ?>">
                       <?php foreach($img_list as $img) { ?>
                         <img class="modal_image" src="<?php echo $img; ?>" />
                       <?php } ?>
