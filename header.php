@@ -44,6 +44,7 @@
 <style>
 * {
 	font-family: 'Nanum Gothic', sans-serif;
+  font-display: swap;
 }
 body {
 	overscroll-behavior-y: none;
