@@ -200,7 +200,7 @@
                 <div class="project_image_container">
                   <div class="project_image" style="background-image:url(img/project/main/<?php echo $project_shortcut; ?>_web.jpg?v=15)">
                     <?php if ($project_shortcut == 'lima') { ?>
-                      <div class="project_first_decoration">First Commission</div>
+                      <div class="project_first_decoration">	&#9830; First Commission 	&#9830;</div>
                     <?php } ?>
                   </div>
                 </div>
