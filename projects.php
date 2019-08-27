@@ -166,6 +166,7 @@
         array("Subscale Trifan","This VTOL business jet is one-of-a-kind! It takes off vertically using three ducted fans, which then rotate horizontally to allow efficient forward propulsion. AirBoss Aviation was brought in to do a full structural analysis of this unique subscale airframe."),
       ),
       "selected past" => array(
+        array("Lima","<strong>This is AirBoss Aviation's first commissioned program!</strong><br /><br />This sleek airframe sports a uniquely-placed single pusher prop behind the tail. The position of the prop combined with the prominent cockpit gives the vehicle a striking profile! Check out these watercolor depictions of the Lima to see AirBoss Aviation's first bold steps into the aviation world."),
         array("ATG Javelin","AirBoss Aviation designed and built the ATG Javelin, a small high-speed personal jet and military trainer. Sporting two Williams FJ33 turbofan engines, the Javelin's speed is like nothing else in its weight class."),
         array("Epic Aircraft","A true 350 knot airplane, the Epic Aircraft is the fastest single engine turbo prop in aviation. In addition to designing the fuselage, wing and tail, AirBoss Aviation also performed structural analysis of the wing, including flutter analysis."),
         array("Fourwinds Aircraft","The Fourwinds Aircraft is a high wing aircraft unlike anything on the market: no other four place plane has four doors! The design of this fixed gear plane by AirBoss produced a plane faster than most retractable gear planes."),
@@ -174,7 +175,6 @@
         array("ION Aircraft","AirBoss Aviation designed and engineering this Light Sport Aircraft (LSA) compliant vehicle to be unique in shape and aesthetics. The plane can be purchased as a kit to be built from the ground up, or manufactured and ready to fly."),
         array("Jet Link Communications","AirBoss Aviation was involved in modifying a Cessna CitationJet/M2 (Model 525) airframe to serve as flying relay station. The effective 43,000 foot high cell tower provides cell phone service in an 80 mile radius of the aircraft. AirBoss Aviation completed preliminary engineering and worked in collaboration with Motorola to outfit the aircraft with the appropriate electronics and antenna."),
         array("JPL Ecotality","AirBoss Aviation acquired a hydrogen-powered bus for Ecotality, and then designed and built a first-of-its-kind hydrogen generator and storage system, the Hydratus. Working with NASA's JPL and the California Institute of Technology, we developed a system to store hydrogen in magnesium/magensium hydride, and then generate hydrogen using salt water. The hydrogen reactor operates at temperature up to 1000&deg;C."),
-        array("Lima","<strong>This is AirBoss Aviation's first commissioned program!</strong><br /><br />This sleek airframe sports a uniquely-placed single pusher prop behind the tail. The position of the prop combined with the prominent cockpit gives the vehicle a striking profile! Check out these watercolor depictions of the Lima to see AirBoss Aviation's first bold steps into the aviation world."),
         array("Maverick Jet","Working for Maverick Jet, AirBoss Aviation designed the LeaderJET, the world's very first Very Light Jet (VLJ). This personal jet kit plane provides heart-stopping performance. Look up! LeaderJETs are still flying in the skies around you."),
         array("Mini-Widebody","AirBoss Aviation designed the Mini-Widebody, a 7 passenger aircraft. This very light jet makes use of twin Williams FJ-33-4 turbofans."),
         array("MX-2","One of Airboss Aviation's first projects, the MX-2 is a tandem two seat carbon fiber fixed gear airplane. This plane, available as a kit, excited the market due to its maneuverability and speed. The ability to pull plus or minus 12g makes the MX-2 ideal for aerobatic maneuvers."),
@@ -205,7 +205,7 @@
                 <div class="project_image_container">
                   <div class="project_image" style="background-image:url(img/project/main/<?php echo $project_shortcut; ?>_web.jpg?v=16)">
                     <?php if ($project_shortcut == 'lima') { ?>
-                      <div class="project_first_decoration">	&#9830; First Commission 	&#9830;</div>
+                      <div class="project_first_decoration">	&#9830; Our First Project	&#9830;</div>
                     <?php } ?>
                   </div>
                 </div>
