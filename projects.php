@@ -246,7 +246,6 @@
     <div class="d-none d-md-block col-md-1"></div>
   <?php } ?>
   <script>
-
   $(document).ready(function(){
     $('.gallery_container').slick({
       infinite: true,
@@ -258,12 +257,10 @@
       autoplaySpeed: 2000
     });
   });
-
   $('.project_container').on('click touch', function(e) {
     $($(this).attr('data-target') + ' .modal_image').each(function() {
       this.src = this.getAttribute('data-src');
     });
-    
     var track = $( $(this).attr('data-target') + ' .slick-track' );
     var load_carousel = function() {
       if (track.height() > 0) {
@@ -271,7 +268,9 @@
         clearInterval( check_carousel_loaded );
       }
     };
-    var check_carousel_loaded = setInterval(load_carousel, 50);
+    if (typeof track.height() !== 'undefined') {
+      var check_carousel_loaded = setInterval(load_carousel, 50);
+    };
   });
   </script>
 
