@@ -102,7 +102,7 @@
     <div class="person_container col-12 col-md-6">
       <div class="person_containerA row d-table text-left">
         <div class="person_image">
-          <img src="img/about_<?php echo $person[1]; ?>.jpg" />
+          <img src="img/about/about_<?php echo $person[1]; ?>.jpg" />
         </div>
         <div class="person_info d-table-cell align-middle">
           <div class="person_name">
