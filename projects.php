@@ -59,6 +59,11 @@
 .project_container img {
   width: 100%;
 }
+.project_link {
+  margin-top: 1em;
+  display: block;
+  text-decoration: underline;
+}
 .modal-header > .close {
   position: absolute;
   right: 1em;
@@ -144,7 +149,7 @@
     $projects = array(
       "featured" => array(
         array("Angel Lyft","AirBoss Aviation designed the Angel Lyft aircraft as a remotely piloted or fully autonomous first-aid vehicle that can access victims in remote or hazardous locations. Replace the first-aid pod with a cargo pod and the Angel Lyft becomes a heavy-lift delivery vehicle! WIth an ability to carry 300 pounds of payload, hover for 40 min., and reach altitudes of 14,500 feet, no other aircraft matches Angel Lyft’s specifications."),
-        array("Bear series aircraft","The Bear series of aircraft are safe, fast, and affordable aircraft that deliver true jet performance in a compact single-engine personal jet. Serving a new niche market, this program costs a fraction of its competitors to own and operate while providing higher speed, longer range, and unmatched safety enhancements."),
+        array("Bear series aircraft","The Bear series of aircraft are safe, fast, and affordable aircraft that deliver true jet performance in a compact single-engine personal jet. Serving a new niche market, this program costs a fraction of its competitors to own and operate while providing higher speed, longer range, and unmatched safety enhancements.<a class='project_link' target='_blank' href='http://www.bearaircraft.com/'>Learn more about the Bear Program</a>"),
         array("Hornet","The autonomous vehicle market lacks heavy-lift, fast, inexpensive drones. The Hornet fills this niche as a totally autonomous 4-fan aircraft that lifts over 100 pounds and reaches 50 miles per hour. Imagine life-saving medical delivery or unmatched military applications (Hellfire missile capable from a submersible aircraft!). All detailed engineering for the Hornet is complete."),
         array("PAV / Medevac","The vision of AirBoss Aviation President David Fawcett, the PAV is a personal air vehicle intended for commutes ranging from 25 to 200 miles. Its alternate configuration, the MEDEVAC is an aerial ambulance intended for transporting injured victims from accident site to medical facilities as far away as 200 miles. The vertical takeoff and landing vehicles use four shrouded props and have a payload (crew and cargo) of 660 and 870 pounds, respectively. An open-rotor option is also available."),
         array("PJ-2 High Performance UAV Jet","The PJ-2 is an economical high performance jet with the potential for unmanned aerial flight. With .87 mach speed and head-on stealth characteristics, this aircraft is ideal for military applications. The PJ-2 has been flown as a manned aircraft and is ready for the detailed engineering of unmanned use."),
