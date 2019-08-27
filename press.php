@@ -13,9 +13,9 @@
       $this_line = str_replace("\n", "", fgets($myfile));
       $this_line = str_replace("\r", "", $this_line);
       $this_line = trim($this_line);
-      
+
       if ($start_reading) {
-        
+
         if ($get_link) {
           $this_link = $this_line;
           $get_link = false;
@@ -39,9 +39,9 @@
         if ($this_line == '') {
           $get_date++;
         };
-        
+
       };
-      
+
       if (strpos($this_line, '-----') !== false) {
         $start_reading = true;
       };
@@ -60,7 +60,7 @@
 .press_item:hover {
   background-color: #EEE;
   text-decoration: none;
-  color: <?php echo $color_base_mid_dark; ?>; 
+  color: <?php echo $color_base_mid_dark; ?>;
 }
 .press_source {
   font-style: italic;
@@ -82,7 +82,7 @@
 }
 
 @media (min-width: 576px) {
-  
+
 }
 @media (min-width: 768px) {
   .press_source {

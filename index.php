@@ -211,7 +211,7 @@ window.onload = (function(){
 				<div class="homepage_box_inner">
 					<h4>Services</h4>
 					<div class="homepage_box_desc">AirBoss Aviation has over 25 years of experience working from conceptual design to test flight. Give us your idea, and we’ll take it from a sketch to the sky.</div>
-					<a class="homepage_box_button button button_light" href="services.php">More Info</a>
+					<a class="homepage_box_button button button_light" href="services">More Info</a>
 					<br /><br />
 				</div>
 			</div>
@@ -222,7 +222,7 @@ window.onload = (function(){
 				<div class="homepage_box_inner">
 					<h4>Projects</h4>
 					<div class="homepage_box_desc">We have managed the configuration, design, and build of light sport and high performance jets, spacecraft components, and vertical take off and landing vehicles.</div>
-					<a class="homepage_box_button button button_light" href="projects.php">More Info</a>
+					<a class="homepage_box_button button button_light" href="projects">More Info</a>
 					<br /><br />
 				</div>
 			</div>
@@ -233,7 +233,7 @@ window.onload = (function(){
 				<div class="homepage_box_inner">
 					<h4>Press</h4>
 					<div class="homepage_box_desc">AirBoss Aviation is a driving force in the aerospace industry. We take conceptual design to the next level, pushing the boundaries of current technology. </div>
-					<a class="homepage_box_button button button_light" href="press.php">More Info</a>
+					<a class="homepage_box_button button button_light" href="press">More Info</a>
 					<br /><br />
 				</div>
 			</div>
@@ -268,7 +268,7 @@ window.onload = (function(){
 		<p>Our talents range from conceptual aircraft design, structural analysis, modal analysis, aerodynamics, thermodynamics, propulsion systems, fabrication, prototype production, and flight testing.</p>
 		<p>We work with our clients to design what they want. We will offer sound advice to ensure the design is safe and meets the mission requirements. We realize that your success is our success.</p>
 		<br />
-		<a class="button button_dark" href="about.php">Read More</a>
+		<a class="button button_dark" href="about">Read More</a>
 		<br /><br /><br />
 	</div>
 	<div class="col-1"></div>
