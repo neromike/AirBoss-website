@@ -10,7 +10,7 @@
 	position: absolute;
 	top: 92px;
 	width: 100%;
-	background-image: url(img/grid_square.png), radial-gradient(#426F9C, #144677);
+	background-image: url(img/homepage/grid_square.png), radial-gradient(#426F9C, #144677);
 	background-size: calc(100% / 8), cover;
 	overflow: hidden;
 	z-index: -1;
@@ -35,7 +35,7 @@
     -ms-interpolation-mode: nearest-neighbor;
 }
 
-#homepage_grid_img_svg {
+.homepage_grid_img_svg {
 	max-height: 520px;
 	max-width: 100%;
 	height: 300px;
@@ -44,6 +44,7 @@
 	padding-right: 1em;
 	padding-top: 2em;
 	padding-bottom: 2em;
+	display: none;
 }
 
 #homepage_grid_message {
@@ -65,7 +66,7 @@
 }
 
 @media (min-width: 576px) {
-	#homepage_grid_img_svg {
+	.homepage_grid_img_svg {
 		height: 340px;
 	}
 }
@@ -73,7 +74,7 @@
 	#homepage_grid_img_container {
 		padding-bottom: 4em;
 	}
-	#homepage_grid_img_svg {
+	.homepage_grid_img_svg {
 		height: 500px;
 	}
 }
@@ -92,12 +93,13 @@
 		background-size: calc(100% / 22), cover;
 	}
 }
-
 </style>
 <div id="homepage_grid_container" class="row">
 	<div id="homepage_grid_img_container">
-		<object type="image/svg+xml" data="img/slider_jet.svg" id="homepage_grid_img_svg"></object>
-		<!-- <img id="homepage_grid_img" src="img/slider_jet.png" /> -->
+		<object type="image/svg+xml" data="img/homepage/slider_jet.svg" class="homepage_grid_img_svg" id="slider_1"></object>
+		<object type="image/svg+xml" data="img/homepage/slider_8fan.svg" class="homepage_grid_img_svg" id="slider_2"></object>
+		<object type="image/svg+xml" data="img/homepage/slider_bwbbz.svg" class="homepage_grid_img_svg" id="slider_3"></object>
+		<object type="image/svg+xml" data="img/homepage/slider_citx1.svg" class="homepage_grid_img_svg" id="slider_4"></object>
 	</div>
 </div>
 <div id="homepage_grid_message" class="row">
@@ -107,15 +109,25 @@
 
 <script>
 var taking_off = false;
+var curr_slider = 1;
+$('#slider_1').show();
 function takeoff() {
 	if (! taking_off) {
 		taking_off = true;
 		$('#homepage_grid_img_container')
 			.animate({left: "100%"}, 2000)
-			.animate({left: "-100%"}, 0)
+			.animate({left: "-100%"}, 0, function() {
+				$('#slider_' + curr_slider).hide();
+				curr_slider++;
+				if (curr_slider > 4) {
+					curr_slider = 1;
+				}
+				$('#slider_' + curr_slider).show();
+			})
 			.delay(1000)
-			.animate({left: "0%"}, 1000, function() { taking_off=false;});
-		//$('#homepage_grid_img_svg').animate({height: "800px"}, 1000);
+			.animate({left: "0%"}, 1000, function() {
+		    taking_off = false;
+			});
 	}
 };
 window.onload = (function(){
