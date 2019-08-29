@@ -12,5 +12,6 @@ Convert the EPS file into an SVG file
 
 Copy the SVG onto the server
 Edit the SVG file by replacing all "stroke:#000000;" to "stroke:#FFFFFF;"
+Edit the SVG file by replacing all "stroke-width:7.5;" to "stroke-width:15;"
 Delete the set width and height in the svg element
 Adjusting the viewbox to closely crop the linework
