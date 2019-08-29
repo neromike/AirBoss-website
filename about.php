@@ -84,8 +84,6 @@
   $people = array(
     array("David J. Fawcett", "dave_fawcett", "President",
           "Dave Fawcett founded AirBoss Aviation over 20 years ago with the vision for a one-stop design firm in the aerospace industry. He has served as configuration designer for aircraft ranging from light sport and high performance jets to space craft. Dave has managed the full design and build of 27 aircraft programs, including the first very light jet (VLJ), the Maverick TwinJet. At AirBoss, he manages day-to-day operations and plays a direct role in aircraft conceptual design and project management. Dave has a Bachelor of Science in Biophysics and Biochemistry with a minor in aeronautical engineering from Ohio State University."),
-    array("William Cashon", "len_fox", "Chief Engineer",
-          "COMING SOON"),
     array("Skip Holm", "skip_holm", "Flight Test Director",
           "Skip Holm is a highly decorated retired fighter pilot in the US Air Force. He holds 42 metals including three Distinguished Flying Crosses and 25 Air Combat Metals. Skip currently holds the world record for combat hours--1,170 hours total. As a test pilot, Skip served with the famed “Lockheed Skunk Works” in the capacity of engineering test pilot. He was also a test pilot on the F-117, F-22, U-2R, and TR-1 programs, as well as numerous classified programs. Skip is considered one of the world’s foremost experts in system evaluation. He received a Bachelor of Science degree in Aeronautical Engineering from North Dakota State and a Masters of Science degree in Aeronautical Engineering/System Management from the University of Southern California."),
     array("Wayne S. Pereanu, PhD", "wayne_pereanu", "Chief Technology Officer",
