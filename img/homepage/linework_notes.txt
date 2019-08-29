@@ -1,0 +1,16 @@
+In AutoCAD, copy the linework to be used into a separate drawing
+Create a bounding box for the image
+Move the bottom-left point to the origin (0,0)
+Scale the bounding box so the y-axis is 100 units high
+Delete the bounding box
+Change all the line widths to 1.0 (use CH)
+Change all line colors to white
+Export the file as an EPS file
+
+Convert the EPS file into an SVG file
+  https://cloudconvert.com/eps-to-svg
+
+Copy the SVG onto the server
+Edit the SVG file by replacing all "stroke:#000000;" to "stroke:#FFFFFF;"
+Delete the set width and height in the svg element
+Adjusting the viewbox to closely crop the linework

@@ -96,10 +96,13 @@
 </style>
 <div id="homepage_grid_container" class="row">
 	<div id="homepage_grid_img_container">
-		<object type="image/svg+xml" data="img/homepage/slider_jet.svg" class="homepage_grid_img_svg" id="slider_1"></object>
-		<object type="image/svg+xml" data="img/homepage/slider_8fan.svg" class="homepage_grid_img_svg" id="slider_2"></object>
-		<object type="image/svg+xml" data="img/homepage/slider_bwbbz.svg" class="homepage_grid_img_svg" id="slider_3"></object>
-		<object type="image/svg+xml" data="img/homepage/slider_citx1.svg" class="homepage_grid_img_svg" id="slider_4"></object>
+		<object type="image/svg+xml" data="img/homepage/slider_sonicfly.svg?v=1" class="homepage_grid_img_svg" id="slider_1"></object>
+    <object type="image/svg+xml" data="img/homepage/slider_10SJ.svg?v=1" class="homepage_grid_img_svg" id="slider_2"></object>
+		<object type="image/svg+xml" data="img/homepage/slider_angel-lyft.svg?v=1" class="homepage_grid_img_svg" id="slider_3"></object>
+		<object type="image/svg+xml" data="img/homepage/slider_citx1.svg?v=1" class="homepage_grid_img_svg" id="slider_4"></object>
+    <object type="image/svg+xml" data="img/homepage/slider_perswig.svg?v=1" class="homepage_grid_img_svg" id="slider_5"></object>
+    <object type="image/svg+xml" data="img/homepage/slider_s2.svg?v=1" class="homepage_grid_img_svg" id="slider_6"></object>
+    <object type="image/svg+xml" data="img/homepage/slider_sultan.svg?v=1" class="homepage_grid_img_svg" id="slider_7"></object>
 	</div>
 </div>
 <div id="homepage_grid_message" class="row">
@@ -110,7 +113,8 @@
 <script>
 var taking_off = false;
 var curr_slider = 1;
-$('#slider_1').show();
+var max_slider = 7;
+$('#slider_' + curr_slider).show();
 function takeoff() {
 	if (! taking_off) {
 		taking_off = true;
@@ -119,7 +123,7 @@ function takeoff() {
 			.animate({left: "-100%"}, 0, function() {
 				$('#slider_' + curr_slider).hide();
 				curr_slider++;
-				if (curr_slider > 4) {
+				if (curr_slider > max_slider) {
 					curr_slider = 1;
 				}
 				$('#slider_' + curr_slider).show();
