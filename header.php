@@ -36,8 +36,8 @@
 
 	$email_address_obfuscate = "-planes";
 	$email_address = "dave@airboss-aerospace" . $email_address_obfuscate . ".com";
-	$address1 = "5336 Wells Fargo Dr.";
-	$address2 = "Colorado Springs, CO 80918";
+	$address1 = "3654 Powell Point Ste 206";
+	$address2 = "Colorado Springs, CO 80922";
 	$phone_number = "(719) 532-0636";
 ?>
 
