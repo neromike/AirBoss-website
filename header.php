@@ -78,8 +78,9 @@ header {
 	background-color: <?php echo $color_base_dark; ?>;
 }
 header .row {
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-top: 1.5em;
+	padding-bottom: 1.45em;
+	align-items: center;
 }
 header a:hover {
 	text-decoration: none;
@@ -89,12 +90,8 @@ header h4 {
 	text-transform: uppercase;
 	font-size: 1.7em;
 }
-header .logo_color1 {
-	color: <?php echo $color_light; ?>;
-}
-header .logo_color2 {
-	color: <?php echo $color_base_light; ?>;
-	font-size: 0.7em;
+header #header_logo {
+	height: 45px;
 }
 header .logo_hamburger {
 	font-size: 1.8em;
@@ -134,7 +131,13 @@ header .logo_hamburger {
 
 }
 @media (min-width: 768px) {
-
+	header #header_logo {
+		height: 50px;
+	}
+	header .row {
+		padding-top: 1.3em;
+		padding-bottom: 1.3em;
+	}
 }
 @media (min-width: 992px) {
 
@@ -151,10 +154,7 @@ header .logo_hamburger {
 		<!-- LOGO -->
 		<div class="col-10 col-md-9 col-lg-6">
 			<a href="/dev">
-				<h4>
-					<span class="logo_color1">AirBoss</span>
-					<span class="logo_color2">Aviation Group</span>
-				</h4>
+				<img id="header_logo" src="img/airboss_logo.png" />
 			</a>
 		</div>
 
