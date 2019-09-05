@@ -99,7 +99,7 @@
 		<object type="image/svg+xml" data="img/homepage/slider_sonicfly.svg?v=1" class="homepage_grid_img_svg" id="slider_1"></object>
     <object type="image/svg+xml" data="img/homepage/slider_10SJ.svg?v=1" class="homepage_grid_img_svg" id="slider_2"></object>
 		<object type="image/svg+xml" data="img/homepage/slider_angel-lyft.svg?v=1" class="homepage_grid_img_svg" id="slider_3"></object>
-		<object type="image/svg+xml" data="img/homepage/slider_citx1.svg?v=1" class="homepage_grid_img_svg" id="slider_4"></object>
+		<object type="image/svg+xml" data="img/homepage/slider_micro.svg?v=1" class="homepage_grid_img_svg" id="slider_4"></object>
     <object type="image/svg+xml" data="img/homepage/slider_perswig.svg?v=1" class="homepage_grid_img_svg" id="slider_5"></object>
     <object type="image/svg+xml" data="img/homepage/slider_s2.svg?v=1" class="homepage_grid_img_svg" id="slider_6"></object>
     <object type="image/svg+xml" data="img/homepage/slider_sultan.svg?v=1" class="homepage_grid_img_svg" id="slider_7"></object>
