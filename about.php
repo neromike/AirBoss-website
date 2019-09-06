@@ -13,9 +13,6 @@
 .person_container .row {
   margin: 0px;
 }
-.person_containerA {
-  margin-bottom: 1em !important;
-}
 .person_info {
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -41,6 +38,10 @@
 .person_info {
   width: 100%;
 }
+.person_container_email {
+  background-color: <?php echo $color_base_light; ?>;
+  color: <?php echo $color_base_dark; ?>;
+}
 .person_copy {
   font-size: 0.9em;
   color: <?php echo $color_base_dark; ?>
@@ -49,6 +50,9 @@
 
 }
 @media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
   .person_info {
     padding-left: 1em;
     padding-right: 1em;
@@ -61,9 +65,6 @@
     font-size: 1.5em;
     line-height: 1.5em;
   }
-}
-@media (min-width: 992px) {
-
 }
 @media (min-width: 1200px) {
 
@@ -82,15 +83,15 @@
 
   <?php
   $people = array(
-    array("David J. Fawcett", "dave_fawcett", "President",
+    array("David J. Fawcett", "dave_fawcett", "President", "dave@airbossaviation" . $email_address_obfuscate . ".com",
           "Dave Fawcett founded AirBoss Aviation over 20 years ago with the vision for a one-stop design firm in the aerospace industry. He has served as configuration designer for aircraft ranging from light sport and high performance jets to space craft. Dave has managed the full design and build of 27 aircraft programs, including the first very light jet (VLJ), the Maverick TwinJet. At AirBoss, he manages day-to-day operations and plays a direct role in aircraft conceptual design and project management. Dave has a Bachelor of Science in Biophysics and Biochemistry with a minor in aeronautical engineering from Ohio State University."),
-    array("Skip Holm", "skip_holm", "Flight Test Director",
+    array("Skip Holm", "skip_holm", "Flight Test Director", "sholm@airbossaviation" . $email_address_obfuscate . ".com",
           "Skip Holm is a highly decorated retired fighter pilot in the US Air Force. He holds 42 metals including three Distinguished Flying Crosses and 25 Air Combat Metals. Skip currently holds the world record for combat hours--1,170 hours total. As a test pilot, Skip served with the famed “Lockheed Skunk Works” in the capacity of engineering test pilot. He was also a test pilot on the F-117, F-22, U-2R, and TR-1 programs, as well as numerous classified programs. Skip is considered one of the world’s foremost experts in system evaluation. He received a Bachelor of Science degree in Aeronautical Engineering from North Dakota State and a Masters of Science degree in Aeronautical Engineering/System Management from the University of Southern California."),
-    array("Wayne S. Pereanu, PhD", "wayne_pereanu", "Chief Technology Officer",
+    array("Wayne S. Pereanu, PhD", "wayne_pereanu", "Chief Technology Officer", "wspereanu@airbossaviation" . $email_address_obfuscate . ".com",
           "Dr. Wayne Pereanu is a freelance software developer in the Washington D.C. area. He is an experienced data scientist and software engineer with a demonstrated history of working in a variety of technical fields, including (but not limited to) molecular biology and civil engineering. He earned his Ph.D. in Molecular, Cell, and Developmental Biology from the University of California, Los Angeles in 2006. His thesis work focused on describing and modeling the anatomy of fruit fly brains. Wayne now works closely with AirBoss to incorporate modern technologies, such as 3D modeling and virtual reality mock-ups, into current AirBoss programs."),
-    array("Shana R. Spindler, PhD", "shana_spindler","Chief Business Development Officer",
+    array("Shana R. Spindler, PhD", "shana_spindler","Chief Business Development Officer", "srsprindler@airbossaviation" . $email_address_obfuscate . ".com",
           "Dr. Shana Spindler received her Ph.D. in Molecular, Cell, and Developmental Biology from the University of California, Los Angeles, in 2009 and then completed a one-year fellowship with the Eunice Kennedy Shriver National Institute of Child Health and Human Development. She is now a writer and business consultant in the Washington D.C. area. With AirBoss Aviation, Shana works alongside Dave Fawcett to identify and implement activities that support business growth in this ever-evolving market. She is excited to build and maintain strong partnerships in the aviation community."),
-    array("Dave M. Levine, EA, MGFC, CTRS", "dave_levine", "Chief Financial Officer",
+    array("Dave M. Levine, EA, MGFC, CTRS", "dave_levine", "Chief Financial Officer", "dmelvine@airbossaviation" . $email_address_obfuscate . ".com",
           "Dave came out of government service and opened a Business & Tax Consulting firm based in Reno, NV. As an Enrolled Agent, he represented individuals and businesses before the Internal Revenue Service, as well as the State Taxation Boards in many states. He is the only Master Graduate Fellow in Nevada and one of eight in the United States. Upon his &quot;semi-retirement&quot; he assumed the CFO position with AirBoss Aviation Group, Inc., one of his oldest clients."),
   );
   ?>
@@ -111,9 +112,12 @@
           </div>
         </div>
       </div>
+      <div class="person_container_email">
+        <a class="contact_email" href="mailto:<?php echo $person[3]; ?>"></a>
+      </div>
       <div class="person_containerB row">
         <div class="person_copy col-12">
-          <?php echo $person[3]; ?>
+          <?php echo $person[4]; ?>
         </div>
       </div>
     </div>

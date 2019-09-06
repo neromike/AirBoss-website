@@ -23,12 +23,13 @@ footer .row {
 
 </body>
 <script>
-	if ($('.contact_email').length) {
-		let href = $('.contact_email').attr('href').replace('<?php echo $email_address_obfuscate . '.'; ?>', '.');
-	  $('.contact_email').attr('href', href);
+	$('.contact_email').each(function() {
+		let href = $(this).attr('href').replace('<?php echo $email_address_obfuscate . '.'; ?>', '.');
+	  $(this).attr('href', href);
 	  href = href.replace('mailto:', '');
-	  $('.contact_email').html(href);
-	}
+	  $(this).html(href);
+
+	});
 
 	function emailIsValid (email) {
 		return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
