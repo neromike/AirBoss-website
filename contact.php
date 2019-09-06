@@ -114,7 +114,7 @@
         </div>
 
         <div class="col-12 col-md-4 align-self-center contact_address_container">
-          <a class="contact_email contact_email_linkonly" href="mailto:<?php echo "dave@airbossaviation" . $email_address_obfuscate . ".com";?>">David Fawcett, President</a>
+          <a class="contact_email contact_email_linkonly" href="mailto:<?php echo "djfawcett@airbossaviation" . $email_address_obfuscate . ".com";?>">David Fawcett, President</a>
           <br />
           <a class="contact_email contact_email_linkonly" href="mailto:<?php echo "sholm@airbossaviation" . $email_address_obfuscate . ".com"; ?>">Skip Holm, Flight Test Director</a>
           <br />
