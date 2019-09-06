@@ -26,7 +26,11 @@ footer .row {
 	$('.contact_email').each(function() {
 		let href = $(this).attr('href').replace('<?php echo $email_address_obfuscate . '.'; ?>', '.');
 	  $(this).attr('href', href);
-	  href = href.replace('mailto:', '');
+		if ($(this).hasClass('contact_email_linkonly')) {
+			href=$(this).html() + ' <i class="far fa-envelope"></i>';
+		} else {
+			href = href.replace('mailto:', '');
+		}
 	  $(this).html(href);
 
 	});
