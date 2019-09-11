@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta name="robots" content="noindex" />
+	<?php if (strpos($_SERVER['PHP_SELF'], "dev/")) { ?>
+	  <meta name="robots" content="noindex" />
+	<?php } ?>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144200802-1"></script>
 	<script>
@@ -203,7 +205,6 @@ header .logo_hamburger {
 		</div>
 	</div>
 </div>
-
 
 <style>
 #body_container {
