@@ -7,6 +7,9 @@
 	border-radius: 0.5em;
 	margin-bottom: 5px;
 	border: 1px solid <?php echo $color_base_dark; ?>;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
 }
 .contactus_container .button {
 	border-radius: 0px;
@@ -19,13 +22,9 @@
 </style>
 <form class="contactus_container">
 	<input class="contactus_name" type="text" placeholder="Name" />
-	<br />
 	<input class="contactus_email" type="email" placeholder="Email" />
-	<br />
 	<input class="contactus_subject" type="text" placeholder="Subject" />
-	<br />
 	<textarea class="contactus_message" placeholder="Message"></textarea>
-	<br />
 	<div class="homepage_contactus_message"></div>
 	<input class="button button_light" onclick="send_contact(); return false;" type="submit" />
 </form>

@@ -71,7 +71,12 @@ footer .row {
 			type: "POST",
 			data: {"name":contact_name, "email":contact_email, "subject":contact_subject, "message":contact_message}
 		}).done(function(data) {
-			console.log(data);
+			$('.contactus_name').hide();
+			$('.contactus_email').hide();
+			$('.contactus_subject').hide();
+			$('.contactus_message').hide();
+			$('.contactus_container .button').hide();
+			$('.homepage_contactus_message').html('<stong>Thank you!<br />Your message has been sent. We will get back to you at the email address you provided.</strong>');
 		});
 	};
 
