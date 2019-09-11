@@ -45,7 +45,6 @@ footer .row {
 		let contact_subject = $('.contactus_subject').val().trim();
 		let contact_message = $('.contactus_message').val().trim();
 
-		/*
 		if (contact_name.length < 3) {
 			$('.homepage_contactus_message').html('Please enter your name.');
 			return;
@@ -66,7 +65,6 @@ footer .row {
 			$('.homepage_contactus_message').html('Please enter a message.');
 			return;
 		};
-		*/
 
 		$.ajax({
 			url: "send_mail.php",
