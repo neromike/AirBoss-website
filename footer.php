@@ -74,5 +74,9 @@ footer .row {
 			console.log(data);
 		});
 	};
+
+	<?php if (! strpos($_SERVER['PHP_SELF'], "dev/")) { ?>
+		document.addEventListener('contextmenu', event => event.preventDefault());
+	<?php } ?>
 </script>
 </html>
