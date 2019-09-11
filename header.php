@@ -155,7 +155,7 @@ header .logo_hamburger {
 	<div class="row">
 		<!-- LOGO -->
 		<div class="col-10 col-md-9 col-lg-6">
-			<a href="/dev">
+			<a href="/<?php if (strpos($_SERVER['PHP_SELF'], "dev/")) { echo 'dev/'; } ?>">
 				<img id="header_logo" src="img/airboss_logo.png" />
 			</a>
 		</div>
