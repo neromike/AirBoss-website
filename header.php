@@ -26,7 +26,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
 
 	<title>AirBoss Aviation Group</title>
-	<link rel="icon" type="image/png" href="favicon.ico" />
+	<link rel="icon" type="image/png" href="favicon.ico?v=1" />
 </head>
 
 <?php
