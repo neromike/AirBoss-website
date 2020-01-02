@@ -12,10 +12,40 @@ footer .row {
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
+footer .vip_footer_welcome {
+	display: none;
+}
+footer .vip_code_input_container {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vip_code_input {
+  text-align: center;
+}
 </style>
 <footer class="container-fluid">
 	<div class="row">
 		<div class="col text-center">
+			<div class="vip_footer_welcome">
+      	Welcome VIP!
+      	<br />
+        <?php if (strpos($_SERVER['PHP_SELF'], "dev/")) { ?>
+          <div id="logout">Log out (only appears on dev)</div>
+        <?php  } ?>
+			</div>
+      <div class="vip_code_link">Have a VIP code?</div>
+      <div class="vip_code_input_container">
+        <input class="vip_code_input" placeholder="Enter your VIP code" />
+        <input class="vip_code_submit button_light" type="submit" />
+      </div>
+			<?php if (isset($vip_code)) { ?>
+				<script>
+					$('.vip_footer_welcome').show();
+					$('.vip_code_link').hide();
+					$('.vip_code_input_container').hide();
+				</script>
+      <?php } ?>
 			&copy; <?php echo date("Y"); ?> AirBoss Aviation Group, Inc.
 		</div>
 	</div>
@@ -84,6 +114,40 @@ footer .row {
 		});
 	};
 
+  // Show the VIP input and subimt button if message is clicked
+  $('.vip_code_link').on('click touch', function() {
+    $('.vip_code_link').hide();
+    $('.vip_code_input_container').show();
+  });
+  $('.vip_code_submit').on('click touch', function() {
+    let this_code = $(this).parent().find('.vip_code_input').val();
+    $.ajax({
+      url: "validate_vip_code.php",
+      type: "POST",
+      data: {"vip_code":this_code}
+    }).done(function(success) {
+      if (success) {
+        //location.reload();
+				$('.vip_footer_welcome').show();
+				$('.project_spec').css('display', 'block');
+				$('.vip_code_input_container').hide();
+      } else {
+        $('.vip_code_input_container').hide();
+        $('.vip_code_input').val('');
+        $('.vip_code_link').show();
+      };
+    });
+  });
+  $('#logout').on('click touch', function() {
+    console.log('log out');
+    $.ajax({
+      url: "logout.php"
+    }).done(function(data) {
+      location.reload();
+    });
+  });
+
+  <!-- Disable right-click on production -->
 	<?php if (! strpos($_SERVER['PHP_SELF'], "dev/")) { ?>
 		document.addEventListener('contextmenu', event => event.preventDefault());
 	<?php } ?>

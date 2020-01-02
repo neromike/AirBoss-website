@@ -1,7 +1,27 @@
+<?php
+  session_start();
+  if (isset($_SESSION['vip_code'])) {
+    $vip_code = $_SESSION['vip_code'];
+
+    // Assign the permissions
+    require_once("vip_permission_list.php");
+    $vip_permission = array(
+      "angel_lift"              => in_array("angel_lift", $vip_permission_list[$vip_code]),
+      "bear_series_aircraft"    => in_array("bear_series_aircraft", $vip_permission_list[$vip_code]),
+      "pav__medevac"            => in_array("pav__medevac", $vip_permission_list[$vip_code]),
+      "hornet"                  => in_array("hornet", $vip_permission_list[$vip_code]),
+      "peregrine_jet"           => in_array("peregrine_jet", $vip_permission_list[$vip_code]),
+      "regional_cargo_aircraft" => in_array("regional_cargo_aircraft", $vip_permission_list[$vip_code]),
+    );
+  } else {
+    $vip_code = null;
+    $vip_permission = array();
+  };
+?>
 <!doctype html>
 <html lang="en">
 <head>
-	<?php if (strpos($_SERVER['PHP_SELF'], "dev/")) { ?>
+	<?php if ( strpos($_SERVER['PHP_SELF'], "dev/") || strpos($_SERVER['PHP_SELF'], "project.php?") || strpos($_SERVER['PHP_SELF'], "promo.php?") ) { ?>
 	  <meta name="robots" content="noindex" />
 	<?php } else { ?>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
