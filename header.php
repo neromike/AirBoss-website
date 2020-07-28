@@ -82,8 +82,8 @@
 
 	$email_address_obfuscate = "-planes";
 	$email_address = "djfawcett@airbossaviation" . $email_address_obfuscate . ".com";
-	$address1 = "3654 Powell Point Ste 206";
-	$address2 = "Colorado Springs, CO 80922";
+	$address1 = "3201 Plumas St Ste 143";
+	$address2 = "Reno, NV 89509";
 	$phone_number = "(719) 532-0636";
 ?>
 
